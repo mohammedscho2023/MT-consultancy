@@ -2,1031 +2,194 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#0f172a">
-<title>Leading a School in the AI Era — Certified AI-Era School Leader (CAISL)</title>
-<meta name="description" content="8-week certificate programme for school leaders. Enrol for only 50 Birr via Telebirr 0917106325.">
-<link rel="canonical" href="https://mohammedscho2023.github.io/UP-SKILL-WORK-FORCE-OPEN-JOB-/ai-leader-course.html">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MT Consultancy | Program Development, Research, M&E & Training</title>
+<meta name="description" content="MT Consultancy: program design, research, proposals, models, training and M&amp;E for NGOs, businesses and development partners. Based in Addis Ababa.">
+<meta name="keywords" content="MT Consultancy, program development, M&amp;E, monitoring and evaluation, grant writing, proposal writing, business research, training, NGO consultant, Ethiopia, Addis Ababa">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website"><meta property="og:site_name" content="MT Consultancy"><meta property="og:title" content="MT Consultancy | Program Development, Research, M&amp;E &amp; Training"><meta property="og:description" content="MT Consultancy supports NGOs, businesses and development partners with program design, research, analysis, funding proposals, models, training and monitoring &amp; evaluation.">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="MT Consultancy"><meta name="twitter:description" content="MT Consultancy supports NGOs, businesses and development partners with program design, research, analysis, funding proposals, models, training and monitoring &amp; evaluation.">
+<meta name="theme-color" content="#166534">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%8C%BF%3C/text%3E%3C/svg%3E">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ProfessionalService", "name": "MT Consultancy", "description": "MT Consultancy supports NGOs, businesses and development partners with program design, research, analysis, funding proposals, models, training and monitoring & evaluation.", "telephone": "+251917106325", "email": "mohammedscho2023@gmail.com", "address": {"@type": "PostalAddress", "addressLocality": "Addis Ababa", "addressCountry": "ET"}, "areaServed": "Worldwide", "founder": {"@type": "Person", "name": "Mohammed Tura", "sameAs": ["https://linkedin.com/in/mohammed-tura-044b0b96"]}, "serviceType": ["Program Development", "Business Research", "Business Analysis", "Proposal and Concept Note Development", "Model Development", "Training Delivery", "Monitoring and Evaluation"]}</script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
 <style>
-  :root{--bg:#f5f7fb;--card:#fff;--ink:#0f172a;--muted:#5b6b82;--line:#e3e9f2;--brand:#1d4ed8;--brand2:#0f766e;--accent:#f59e0b;--ok:#15803d;--bad:#b91c1c;--gold:#c9a227;--radius:14px;--shadow:0 1px 2px rgba(15,23,42,.06),0 8px 24px rgba(15,23,42,.06)}
-  *{box-sizing:border-box}html,body{margin:0;padding:0}
-  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;-webkit-text-size-adjust:100%}
-  a{color:var(--brand);text-decoration:none;word-break:break-word}a:hover{text-decoration:underline}
-  .topbar{position:sticky;top:0;z-index:50;background:linear-gradient(120deg,#0f172a 0%,#1e3a8a 60%,#0f766e 100%);color:#fff;padding:10px 14px;box-shadow:0 2px 14px rgba(15,23,42,.25)}
-  .topbar-inner{max-width:1080px;margin:0 auto;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
-  .brand{display:flex;align-items:center;gap:9px;font-weight:700;font-size:14px;flex:1 1 auto;min-width:0}
-  .brand .mark{width:30px;height:30px;border-radius:9px;flex:0 0 auto;background:linear-gradient(135deg,var(--accent),#ef4444);display:grid;place-items:center;font-size:15px;font-weight:800;color:#1a1200}
-  .brand span.t{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-  .brand small{display:block;font-weight:400;font-size:11px;opacity:.75}
-  .progress-wrap{display:flex;align-items:center;gap:8px;flex:0 0 auto}
-  .bar{width:110px;height:8px;background:rgba(255,255,255,.22);border-radius:99px;overflow:hidden}
-  .bar>span{display:block;height:100%;width:0;background:linear-gradient(90deg,#facc15,#22c55e);border-radius:99px;transition:width .4s ease}
-  #progressText{font-size:12px;font-variant-numeric:tabular-nums;opacity:.9;min-width:34px;text-align:right}
-  .tabs{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:50px;z-index:40}
-  .tabs-inner{max-width:1080px;margin:0 auto;display:flex;gap:6px;overflow-x:auto;padding:8px 12px;scrollbar-width:none}
-  .tabs-inner::-webkit-scrollbar{display:none}
-  .tab{border:1px solid var(--line);background:#fff;color:var(--muted);padding:7px 13px;border-radius:99px;font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap;transition:.15s;font-family:inherit}
-  .tab:hover{border-color:#c7d2fe;color:var(--brand)}
-  .tab.active{background:var(--brand);border-color:var(--brand);color:#fff}
-  .tab .dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:#cbd5e1;margin-left:6px;vertical-align:middle}
-  .tab .dot.done{background:#22c55e}
-  main{max-width:1080px;margin:0 auto;padding:20px 14px 70px}
-  .view{animation:fade .25s ease}
-  @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
-  .crumb{font-size:12px;font-weight:700;letter-spacing:.9px;text-transform:uppercase;color:var(--brand2);margin-bottom:6px}
-  h1{font-size:clamp(21px,4.4vw,30px);line-height:1.25;margin:.1em 0 .5em}
-  h2{font-size:clamp(17px,3vw,21px);margin:1.8em 0 .6em;padding-bottom:.35em;border-bottom:2px solid var(--line)}
-  h3{font-size:15px;margin:0 0 .35em}
-  .lead{font-size:16px;color:#243b53;margin:0 0 1em}
-  p{margin:.6em 0}ul,ol{margin:.5em 0;padding-left:1.25em}li{margin:.35em 0}
-  .pills{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 1.1em}
-  .pill{font-size:12px;font-weight:600;padding:4px 11px;border-radius:99px;background:#eef2ff;color:#3730a3;border:1px solid #e0e7ff}
-  .pill.g{background:#ecfdf5;color:#065f46;border-color:#d1fae5}
-  .pill.a{background:#fffbeb;color:#92400e;border-color:#fef3c7}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;box-shadow:var(--shadow);margin:14px 0}
-  .grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
-  .res{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--brand2);border-radius:12px;padding:14px 15px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:6px}
-  .res .meta{font-size:12.5px;color:var(--muted)}
-  .res .tag{align-self:flex-start;font-size:11px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;padding:3px 9px;border-radius:99px;background:#ecfeff;color:#155e75;border:1px solid #cffafe}
-  .res .tag.free{background:#ecfdf5;color:#065f46;border-color:#d1fae5}
-  .res .tag.paid{background:#fef2f2;color:#991b1b;border-color:#fee2e2}
-  .res .tag.video{background:#fdf4ff;color:#86198f;border-color:#fae8ff}
-  .res .link{margin-top:auto;font-weight:700;font-size:14px;display:inline-flex;align-items:center;gap:6px}
-  .res .link::after{content:"↗";font-size:13px}
-  .vidcard{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;box-shadow:var(--shadow)}
-  .vidcard h4{margin:.1em 0 .3em;font-size:14.5px}
-  .vidcard .meta{font-size:12.5px;color:var(--muted)}
-  .vidcard .why{font-size:13.5px;margin:.4em 0 0}
-  .q{border-top:1px dashed var(--line);padding:14px 0 4px}
-  .q:first-of-type{border-top:0;padding-top:4px}
-  .q .qtext{font-weight:650;margin-bottom:8px}
-  .opt{display:flex;gap:9px;align-items:flex-start;padding:9px 11px;border:1px solid var(--line);border-radius:10px;margin:6px 0;cursor:pointer;font-size:14.5px;transition:.12s;background:#fff}
-  .opt:hover{border-color:#c7d2fe;background:#f8faff}
-  .opt input{margin-top:3px;flex:0 0 auto;accent-color:var(--brand)}
-  .opt.correct{border-color:#86efac;background:#f0fdf4}
-  .opt.wrong{border-color:#fca5a5;background:#fef2f2}
-  .fb{font-size:13.5px;margin-top:6px;font-weight:600}
-  .fb.ok{color:var(--ok)}.fb.bad{color:var(--bad)}
-  button,.btn{font-family:inherit;font-size:14px;font-weight:650;cursor:pointer;border-radius:10px;padding:10px 17px;border:1px solid transparent;transition:.15s}
-  .btn-primary{background:var(--brand);color:#fff}.btn-primary:hover{background:#1740b8}
-  .btn-ghost{background:#fff;color:var(--ink);border-color:var(--line)}.btn-ghost:hover{border-color:#c7d2fe;color:var(--brand)}
-  .btn-gold{background:linear-gradient(120deg,#b8860b,#daa520);color:#1a1200;font-weight:800}.btn-gold:hover{background:linear-gradient(120deg,#a5790a,#c99a1c)}
-  .btn-tele{background:linear-gradient(120deg,#0e7a3d,#12a04f);color:#fff;font-weight:800;display:inline-flex;align-items:center;gap:8px}.btn-tele:hover{background:linear-gradient(120deg,#0c6a35,#0f8c45)}
-  .actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:16px 0 0}
-  .navrow{display:flex;justify-content:space-between;gap:10px;margin-top:26px;flex-wrap:wrap}
-  .checkline{display:flex;gap:10px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:12px;padding:13px 15px;margin-top:16px;font-size:14.5px;cursor:pointer}
-  .checkline input{margin-top:3px;accent-color:#15803d;width:17px;height:17px}
-  .status{font-size:13px;font-weight:700;padding:3px 10px;border-radius:99px}
-  .status.ok{background:#dcfce7;color:#166534}.status.no{background:#f1f5f9;color:#475569}
-  .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:#fff}
-  table{border-collapse:collapse;width:100%;font-size:14px;min-width:520px}
-  th,td{padding:10px 13px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
-  th{background:#f8fafc;font-size:12px;letter-spacing:.6px;text-transform:uppercase;color:var(--muted)}
-  tr:last-child td{border-bottom:0}
-  .cert{background:#fff;border:3px double var(--gold);border-radius:10px;padding:28px 22px;text-align:center;box-shadow:var(--shadow);margin-top:16px}
-  .cert .seal{font-size:38px;line-height:1}
-  .cert h2{border:0;margin:.4em 0 .1em;font-size:22px;letter-spacing:.5px}
-  .cert .name{font-size:26px;font-weight:800;color:#0f172a;margin:14px 0 4px;border-bottom:2px solid #e2e8f0;display:inline-block;padding:0 22px 6px;min-width:60%}
-  .cert .sub{color:var(--muted);font-size:13.5px}
-  .cert .id{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;color:var(--muted);margin-top:16px}
-  .cert.locked{filter:grayscale(.5);opacity:.75;border-color:#cbd5e1}
-  .locked-note{background:#fffbeb;border:1px solid #fde68a;color:#92400e;border-radius:12px;padding:13px 15px;font-size:14px;margin-top:14px}
-  .toast{position:fixed;left:50%;bottom:22px;transform:translate(-50%,120%);background:#0f172a;color:#fff;padding:10px 18px;border-radius:99px;font-size:13.5px;font-weight:600;box-shadow:0 10px 30px rgba(0,0,0,.3);transition:transform .3s ease;z-index:99}
-  .toast.show{transform:translate(-50%,0)}
-  .paybox{background:linear-gradient(135deg,#052e16,#0e7a3d 60%,#065f46);color:#fff;border-radius:16px;padding:22px;box-shadow:0 10px 34px rgba(6,95,70,.35);margin:16px 0}
-  .paybox h3{color:#fff;font-size:19px;margin:0 0 6px}
-  .paybox p{color:#d1fae5;font-size:14.5px;margin:.4em 0}
-  .paybox .price{font-size:34px;font-weight:800;letter-spacing:-.5px;margin:10px 0 2px;color:#fff}
-  .paybox .price small{font-size:15px;font-weight:600;opacity:.85}
-  .paybox .ph{display:inline-flex;align-items:center;gap:10px;background:rgba(255,255,255,.13);border:1px dashed rgba(255,255,255,.45);border-radius:12px;padding:11px 16px;margin:10px 0;font-size:21px;font-weight:800;letter-spacing:1.2px;font-variant-numeric:tabular-nums}
-  .paybox ol{color:#ecfdf5;font-size:14px;margin:.6em 0;padding-left:1.2em}.paybox li{margin:.3em 0}
-  .modal-back{position:fixed;inset:0;background:rgba(15,23,42,.65);backdrop-filter:blur(3px);display:none;place-items:center;z-index:120;padding:16px}
-  .modal-back.show{display:grid}
-  .modal{background:#fff;border-radius:16px;max-width:440px;width:100%;padding:22px;box-shadow:0 24px 60px rgba(0,0,0,.4);animation:pop .22s ease}
-  @keyframes pop{from{transform:scale(.94);opacity:0}to{transform:scale(1);opacity:1}}
-  .modal h3{margin:0 0 8px;font-size:18px}
-  .modal .row{display:flex;gap:8px;align-items:center;margin:10px 0}
-  .modal .phbig{font-size:22px;font-weight:800;letter-spacing:1px;color:#0e7a3d}
-  .modal .copy{background:#ecfdf5;border:1px solid #a7f3d0;color:#065f46;border-radius:9px;padding:7px 12px;font-weight:700;font-size:13px;cursor:pointer}.modal .copy:hover{background:#d1fae5}
-  .modal .close{background:#f1f5f9;color:#334155;border:1px solid var(--line);border-radius:9px;padding:7px 14px;font-weight:650;cursor:pointer}.modal .close:hover{background:#e2e8f0}
-  .modal .steps{font-size:14px;color:#334155}.modal .steps li{margin:.4em 0}
-  footer{border-top:1px solid var(--line);background:#fff;padding:22px 14px;text-align:center;font-size:13px;color:var(--muted)}
-  footer a{font-weight:600}
-  @media (max-width:520px){.brand small{display:none}.bar{width:70px}main{padding:16px 12px 60px}.cert .name{font-size:20px;min-width:80%}.paybox .price{font-size:27px}}
-  @media print{.topbar,.tabs,footer,.no-print,.navrow,.actions,.paybox{display:none !important}body{background:#fff}main{padding:0;max-width:100%}.card,.res,.vidcard{box-shadow:none;break-inside:avoid}.cert{border:3px double var(--gold)}a[href]::after{content:" (" attr(href) ")";font-size:11px;color:#555}}
+:root{--bg:#f8fafc;--card:#fff;--ink:#0f172a;--mut:#475569;--line:#e2e8f0;--acc:#4f46e5;--acc2:#7c3aed;--soft:#eef2ff;--nav:rgba(255,255,255,.92);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1020;--card:#141b2e;--ink:#f1f5f9;--mut:#a3b0c5;--line:#263049;--acc:#818cf8;--acc2:#a78bfa;--soft:#1b2342;--nav:rgba(11,16,32,.92)}}
+:root[data-theme="dark"]{--bg:#0b1020;--card:#141b2e;--ink:#f1f5f9;--mut:#a3b0c5;--line:#263049;--acc:#818cf8;--acc2:#a78bfa;--soft:#1b2342;--nav:rgba(11,16,32,.92)}
+*{box-sizing:border-box;margin:0;padding:0}html,body{scroll-behavior:smooth}html{scroll-padding-top:calc(72px + env(safe-area-inset-top,0px))}
+body{background:var(--bg);color:var(--ink);font:16px/1.65 Inter,system-ui,-apple-system,Segoe UI,sans-serif}
+h1,h2,h3{font-family:Poppins,Inter,system-ui,sans-serif;line-height:1.2;letter-spacing:-.02em}
+a{color:inherit;text-decoration:none}.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--nav);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:64px;gap:12px}
+.logo{font:800 1.15rem Poppins,sans-serif;display:flex;align-items:center;gap:10px}.logo b{display:grid;place-items:center;width:36px;height:36px;border-radius:10px;background:linear-gradient(135deg,var(--acc),var(--acc2));color:#fff;font-size:.85rem}
+nav a{margin-left:20px;font-size:.9rem;font-weight:500;color:var(--mut)}nav a:hover{color:var(--acc)}
+.btn{display:inline-block;padding:11px 20px;border-radius:10px;font-weight:600;font-size:.9rem;border:1.5px solid transparent;cursor:pointer;font-family:inherit}
+.p{background:linear-gradient(135deg,var(--acc),var(--acc2));color:#fff}.o{border-color:var(--line);background:var(--card);color:var(--ink)}.btn:hover{opacity:.9}
+section{padding:72px 0}.hero{padding:80px 0 60px}
+.eye{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--acc);background:var(--soft);padding:5px 12px;border-radius:99px;margin-bottom:16px}
+.hero h1{font-size:clamp(2rem,5vw,3.4rem);font-weight:800;max-width:800px;margin-bottom:18px}
+.hero p.lead{font-size:1.1rem;color:var(--mut);max-width:640px;margin-bottom:28px}.cta{display:flex;gap:12px;flex-wrap:wrap}
+.creds{display:flex;gap:10px 22px;flex-wrap:wrap;margin-top:34px;padding-top:22px;border-top:1px solid var(--line);color:var(--mut);font-size:.88rem;font-weight:600}.creds span:before{content:"✓ ";color:#10b981}
+.head{max-width:640px;margin-bottom:36px}.head h2{font-size:clamp(1.6rem,3.2vw,2.2rem);margin-bottom:10px}.head p{color:var(--mut)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px;display:flex;flex-direction:column;gap:10px}
+.card h3{font-size:1.05rem}.card p{color:var(--mut);font-size:.92rem;flex:1}.card .n{width:40px;height:40px;border-radius:10px;background:var(--soft);color:var(--acc);display:grid;place-items:center;font:700 .9rem Poppins}
+.tags{display:flex;flex-wrap:wrap;gap:6px}.tags i{font-style:normal;font-size:.7rem;font-weight:600;background:var(--soft);color:var(--acc);padding:3px 9px;border-radius:99px}
+.q{font-size:1rem;color:var(--ink);font-style:italic}.who{font-size:.85rem;color:var(--mut);font-weight:600}.k{font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--acc)}.ov{position:fixed;inset:0;background:rgba(15,23,42,.7);z-index:70;display:none;place-items:center;padding:16px}.ov.open{display:grid}.box{background:var(--card);color:var(--ink);border-radius:20px;max-width:440px;width:100%;padding:24px;max-height:90vh;overflow:auto;border-top:5px solid #10b981;display:grid;gap:12px}.box h3{font-size:1.2rem}.box ol{padding-left:20px;color:var(--mut);font-size:.9rem;display:grid;gap:4px}.amt{background:linear-gradient(135deg,#d1fae5,#a7f3d0);color:#065f46;border-radius:12px;padding:12px 14px;font-weight:700}.num{font:800 1.4rem Poppins;letter-spacing:.04em}.price{font:800 1.3rem Poppins}.alt{background:var(--card);border-block:1px solid var(--line)}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:32px}@media(max-width:800px){.contact{grid-template-columns:1fr}nav a{display:none}}
+form{display:grid;gap:12px}input,select,textarea{width:100%;padding:12px 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);font:inherit}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--acc);border-color:transparent}textarea{min-height:110px}
+.ci{display:grid;gap:10px;margin-top:18px}.ci a{padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--card);font-weight:600;font-size:.92rem;overflow-wrap:anywhere}
+footer{background:#0f172a;color:#cbd5e1;padding:36px 0;font-size:.85rem}footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:center}
+footer button{background:none;border:1px solid #334155;color:#cbd5e1;border-radius:8px;padding:6px 12px;cursor:pointer;font:inherit}
+.wa{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:30;background:#25d366;color:#fff;font-weight:700;padding:13px 18px;border-radius:99px;box-shadow:0 8px 24px rgba(0,0,0,.25);font-size:.9rem}
+#adm{position:fixed;inset:0 0 0 auto;width:min(480px,100%);background:var(--card);z-index:50;border-left:1px solid var(--line);padding:calc(18px + env(safe-area-inset-top,0px)) 20px 20px;overflow-y:auto;display:none;box-shadow:-10px 0 40px rgba(0,0,0,.25)}
+#adm.open{display:block}#adm h3{margin-bottom:4px}#adm label{display:block;font-size:.78rem;font-weight:700;margin:14px 0 5px}#adm small{color:var(--mut);font-weight:400}#adm textarea{min-height:130px;font-size:.82rem}
+#toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%);background:#0f172a;color:#fff;padding:10px 18px;border-radius:10px;font-size:.88rem;z-index:60;display:none;max-width:90%}
+
+/* ===== Colorful standard theme ===== */
+:root{--rb:linear-gradient(90deg,#3b82f6,#8b5cf6,#ec4899,#f97316,#eab308,#10b981)}
+header{border-bottom:0;box-shadow:0 1px 0 var(--line)}header:after{content:"";display:block;height:3px;background:var(--rb)}
+.logo b{background:linear-gradient(135deg,#3b82f6,#8b5cf6,#ec4899)}
+nav a:hover{color:#ec4899}
+.btn.p{background:linear-gradient(135deg,#6366f1,#ec4899);box-shadow:0 8px 20px -8px rgba(236,72,153,.6)}
+.hero{position:relative;overflow:hidden;color:#fff;padding:96px 0 80px;background:var(--hero,linear-gradient(135deg,#1e1b4b 0%,#4c1d95 45%,#be185d 100%))}
+.hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 15% 25%,rgba(59,130,246,.45),transparent 45%),radial-gradient(circle at 85% 75%,rgba(249,115,22,.35),transparent 45%)}
+.hero .wrap{position:relative}.hero .eye{background:rgba(255,255,255,.18);color:#fff;border:1px solid rgba(255,255,255,.3)}
+.hero p.lead{color:#e0e7ff}.hero .creds{border-color:rgba(255,255,255,.25);color:#e0e7ff}.hero .creds span:before{color:#34d399}
+.hero .btn.p{background:#fff;color:#4c1d95;box-shadow:0 10px 26px -10px rgba(0,0,0,.5)}
+.hero .btn.o{background:rgba(255,255,255,.14);color:#fff;border-color:rgba(255,255,255,.45)}
+.grid>.card:nth-child(6n+1){--c:#6366f1}.grid>.card:nth-child(6n+2){--c:#ec4899}.grid>.card:nth-child(6n+3){--c:#f59e0b}.grid>.card:nth-child(6n+4){--c:#10b981}.grid>.card:nth-child(6n+5){--c:#06b6d4}.grid>.card:nth-child(6n){--c:#8b5cf6}
+.card{--c:#6366f1;border-top:5px solid var(--c);transition:transform .25s,box-shadow .25s;box-shadow:0 10px 28px -18px rgba(15,23,42,.35)}
+.card:hover{transform:translateY(-5px);box-shadow:0 22px 40px -20px var(--c)}
+.card .n{background:var(--c);color:#fff;box-shadow:0 8px 18px -8px var(--c)}
+.k{color:var(--c)}.card .tags i{background:color-mix(in srgb,var(--c) 14%,var(--card));color:var(--c)}
+.card a[target]:not(.btn){color:var(--c)!important}.price{color:var(--c)}
+.card .btn.o{border-color:var(--c);color:var(--c)}.card .btn.o:hover{background:var(--c);color:#fff}
+.eye{background:linear-gradient(135deg,color-mix(in srgb,#6366f1 16%,var(--card)),color-mix(in srgb,#ec4899 16%,var(--card)));color:var(--acc)}
+.head h2{background:linear-gradient(90deg,var(--ink),var(--acc));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.alt{border:0}
+#services{background:linear-gradient(135deg,color-mix(in srgb,#6366f1 10%,var(--bg)),color-mix(in srgb,#ec4899 10%,var(--bg)))}
+#work{background:linear-gradient(135deg,color-mix(in srgb,#06b6d4 10%,var(--bg)),color-mix(in srgb,#10b981 10%,var(--bg)))}
+#resources{background:linear-gradient(135deg,color-mix(in srgb,#f59e0b 11%,var(--bg)),color-mix(in srgb,#f97316 9%,var(--bg)))}
+#process{background:linear-gradient(135deg,#1e1b4b,#4c1d95 55%,#831843);color:#fff}
+#process .head h2{background:none;-webkit-text-fill-color:#fff;color:#fff}#process .eye{background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.3)}
+#process .card{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.15);border-top-color:var(--c);backdrop-filter:blur(8px)}
+#process .card h3{color:#fff}#process .card p{color:#cbd5e1}
+section.alt:not([id]){background:linear-gradient(135deg,color-mix(in srgb,#8b5cf6 10%,var(--bg)),color-mix(in srgb,#3b82f6 10%,var(--bg)))}
+.contact>form{background:var(--card);padding:26px;border-radius:20px;border:1px solid var(--line);border-top:5px solid #8b5cf6;box-shadow:0 22px 44px -26px rgba(99,102,241,.5)}
+.ci a:nth-child(1){border-left:5px solid #6366f1}.ci a:nth-child(2){border-left:5px solid #ec4899}.ci a:nth-child(3){border-left:5px solid #0a66c2}
+footer{background:linear-gradient(135deg,#0f172a,#1e1b4b);position:relative}footer:before{content:"";position:absolute;top:0;left:0;right:0;height:4px;background:var(--rb)}
+.wa{background:linear-gradient(135deg,#25d366,#128c7e)}
+
+/* ===== Nature theme ===== */
+:root{--bg:#f7f5ee;--soft:#e6f4e4;--line:#e3dfd0;--ink:#16261d;--mut:#4d6056;--rb:linear-gradient(90deg,#16a34a,#0d9488,#0284c7,#d97706,#65a30d)}
+.logo b,.btn.p{background:linear-gradient(135deg,#16a34a,#0d9488)}.btn.p{box-shadow:0 8px 20px -8px rgba(22,163,74,.6)}
+nav a:hover{color:#16a34a}.hero .btn.p{background:#fff;color:#14532d}
+.grid>.card:nth-child(6n+1){--c:#16a34a}.grid>.card:nth-child(6n+2){--c:#0d9488}.grid>.card:nth-child(6n+3){--c:#d97706}.grid>.card:nth-child(6n+4){--c:#0284c7}.grid>.card:nth-child(6n+5){--c:#65a30d}.grid>.card:nth-child(6n){--c:#c2410c}
+.eye{background:linear-gradient(135deg,color-mix(in srgb,#16a34a 16%,var(--card)),color-mix(in srgb,#0ea5e9 14%,var(--card)));color:var(--acc)}
+.hero{padding:88px 0 76px}.hero:before{background:radial-gradient(circle at 12% 22%,rgba(163,230,53,.3),transparent 45%),radial-gradient(circle at 88% 78%,rgba(245,158,11,.32),transparent 45%)}
+.hero:after{content:"🌿";position:absolute;right:3%;bottom:-18px;font-size:9rem;opacity:.12;line-height:1}
+.hgrid{display:grid;grid-template-columns:1.25fr .75fr;gap:40px;align-items:center}
+.hcard{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.3);backdrop-filter:blur(10px);border-radius:24px;padding:26px;display:grid;gap:14px}
+.hcard h3{color:#fff;font-size:1.15rem}.hcard ul{list-style:none;display:grid;gap:10px}.hcard li{color:#ecfdf5;font-weight:600;font-size:.95rem}.hcard li:before{content:"🌿 "}
+.agrid{display:grid;grid-template-columns:1.2fr .8fr;gap:36px;align-items:center}.apill{display:grid;gap:12px}
+.apill div{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--c);border-radius:14px;padding:15px 18px;font-weight:700;box-shadow:0 10px 24px -18px rgba(22,38,29,.5)}
+.apill div:nth-child(1){--c:#16a34a}.apill div:nth-child(2){--c:#0284c7}.apill div:nth-child(3){--c:#d97706}
+#about{background:var(--bg)}
+#services{background:linear-gradient(160deg,color-mix(in srgb,#16a34a 11%,var(--bg)),color-mix(in srgb,#65a30d 9%,var(--bg)))}
+.card .n{font-size:1.35rem;width:48px;height:48px;border-radius:14px}
+#work{background:linear-gradient(160deg,color-mix(in srgb,#0284c7 10%,var(--bg)),color-mix(in srgb,#0d9488 9%,var(--bg)))}
+#work .grid{grid-template-columns:repeat(auto-fit,minmax(340px,1fr))}#work .card{border-top:1px solid var(--line);border-left:6px solid var(--c)}
+#resources{background:linear-gradient(160deg,color-mix(in srgb,#d97706 11%,var(--bg)),color-mix(in srgb,#eab308 8%,var(--bg)))}
+.th{margin:-24px -24px 6px;height:92px;display:grid;place-items:center;font-size:2.4rem;background:var(--c);background:linear-gradient(135deg,var(--c),color-mix(in srgb,var(--c) 50%,#fff));border-radius:11px 11px 0 0}
+#process{background:linear-gradient(150deg,#052e16,#166534 55%,#0f766e)}
+#process .grid{position:relative;grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
+#process .grid:before{content:"";position:absolute;top:50px;left:8%;right:8%;height:3px;background:var(--rb);opacity:.7}
+#process .card{position:relative;z-index:1;border-top:1px solid rgba(255,255,255,.18);align-items:center;text-align:center}
+#process .card .n{width:56px;height:56px;border-radius:50%;font-size:1.2rem}
+@media(max-width:860px){.hgrid,.agrid{grid-template-columns:1fr}#process .grid:before{display:none}}
+section.alt:not([id]){background:linear-gradient(160deg,color-mix(in srgb,#65a30d 11%,var(--bg)),color-mix(in srgb,#0ea5e9 9%,var(--bg)))}
+section.alt:not([id]) .card{border-top:1px solid var(--line);border-left:6px solid var(--c)}.q{font-size:1.12rem;line-height:1.6}
+.contact>form{border-top-color:#16a34a}.ci a:nth-child(1){border-left-color:#16a34a}.ci a:nth-child(2){border-left-color:#d97706}.ci a:nth-child(3){border-left-color:#0284c7}
+footer{background:linear-gradient(135deg,#052e16,#14532d)}
 </style>
 </head>
 <body>
+<div id="app">
+<header><div class="wrap nav"><a class="logo" href="#top"><b>MT</b>MT Consultancy</a>
+<nav><a href="#about">About</a><a href="#services">Services</a><a href="#work">Work</a><a href="#resources">Resources</a><a href="#process">Process</a><a href="#contact">Contact</a></nav>
+<a class="btn p" href="https://wa.me/251917106325?text=Hello%2C%20I%20would%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener">Book a consultation</a></div></header>
+<section class="hero" id="top"><div class="wrap hgrid"><div><span class="eye">Development &amp; Business Consultancy</span><h1>Evidence-driven programs, proposals and M&amp;E for global impact</h1><p class="lead">MT Consultancy helps NGOs, businesses and development partners design programs, win funding and measure results. We cover research, proposals, models, training and M&amp;E from start to finish.</p>
+<div class="cta"><a class="btn p" href="https://wa.me/251917106325?text=Hello%2C%20I%20want%20to%20discuss%20a%20consultancy%20project." target="_blank" rel="noopener">Chat on WhatsApp</a><a class="btn o" href="#contact">Send an inquiry</a></div>
+</div><aside class="hcard"><h3>Why clients choose us</h3><ul><li>Certified Grant Writer</li><li>PRINCE2 Certified</li><li>MBA, Project Management</li><li>10+ years experience</li></ul><a class="btn p" style="text-align:center" href="tel:+251917106325">📞 Call +251917106325</a></aside></div></section>
+<section id="about"><div class="wrap agrid"><div><span class="eye">About</span><h2 style="font-size:clamp(1.6rem,3vw,2.1rem);margin-bottom:14px">Who we are</h2><p style="color:var(--mut);font-size:1.02rem">MT Consultancy is a development and business consultancy based in Addis Ababa and working globally. We support NGOs, businesses and development partners with program design, research and analysis, funding proposals, business and program models, training, and monitoring and evaluation. Led by Mohammed Tura, a certified grant writer and PRINCE2-certified project manager with an MBA in Project Management, we focus on practical work that donors trust and teams can deliver.</p></div><div class="apill"><div>🌍 Global reach, based in Addis Ababa</div><div>📋 7 core services</div><div>🎓 Certified Grant Writer</div></div></div></section>
+<section id="services" class="alt"><div class="wrap"><div class="head"><span class="eye">Services</span><h2>7 core services, one accountable partner</h2><p>End-to-end support from design and research through delivery and results measurement.</p></div>
+<div class="grid"><div class="card"><div class="n">🌱</div><h3>Program Development</h3><p>Theory of change, logframes, budgets, staffing plans and implementation roadmaps.</p><div class="tags"><i>Design</i><i>Logframe</i><i>Strategy</i></div><a href="https://wa.me/251917106325?text=I%20need%20support%20with%3A%20Program%20Development" target="_blank" rel="noopener" style="color:var(--acc);font-weight:600;font-size:.88rem">Request this service →</a></div><div class="card"><div class="n">🔍</div><h3>Business Research</h3><p>Market research, feasibility studies, baselines and evidence synthesis.</p><div class="tags"><i>Market</i><i>Feasibility</i><i>Baseline</i></div><a href="https://wa.me/251917106325?text=I%20need%20support%20with%3A%20Business%20Research" target="_blank" rel="noopener" style="color:var(--acc);font-weight:600;font-size:.88rem">Request this service →</a></div><div class="card"><div class="n">📊</div><h3>Business Analysis</h3><p>Performance diagnostics, process mapping, KPI design and improvement plans.</p><div class="tags"><i>Diagnostics</i><i>KPIs</i><i>Process</i></div><a href="https://wa.me/251917106325?text=I%20need%20support%20with%3A%20Business%20Analysis" target="_blank" rel="noopener" style="color:var(--acc);font-weight:600;font-size:.88rem">Request this service →</a></div><div class="card"><div class="n">📝</div><h3>Proposals &amp; Concept Notes</h3><p>Donor-ready proposals and concept notes with budgeting and compliance review.</p><div class="tags"><i>Proposals</i><i>Donors</i><i>Budgets</i></div><a href="https://wa.me/251917106325?text=I%20need%20support%20with%3A%20Proposals%20%26%20Concept%20Notes" target="_blank" rel="noopener" style="color:var(--acc);font-weight:600;font-size:.88rem">Request this service →</a></div><div class="card"><div class="n">🧩</div><h3>Model Development</h3><p>Business, financial and program models and scalable frameworks.</p><div class="tags"><i>Business Model</i><i>Financial</i><i>Scale</i></div><a href="https://wa.me/251917106325?text=I%20need%20support%20with%3A%20Model%20Development" target="_blank" rel="noopener" style="color:var(--acc);font-weight:600;font-size:.88rem">Request this service →</a></div><div class="card"><div class="n">🎓</div><h3>Training Delivery</h3><p>Tailored in-person and online training: grant writing, MEAL, program management, AI for NGOs.</p><div class="tags"><i>Workshops</i><i>Online</i><i>In-person</i></div><a href="https://wa.me/251917106325?text=I%20need%20support%20with%3A%20Training%20Delivery" target="_blank" rel="noopener" style="color:var(--acc);font-weight:600;font-size:.88rem">Request this service →</a></div><div class="card"><div class="n">✅</div><h3>Monitoring &amp; Evaluation</h3><p>M&amp;E systems, baseline/midline/endline evaluations, impact assessments and learning reports.</p><div class="tags"><i>MEAL</i><i>Evaluation</i><i>Impact</i></div><a href="https://wa.me/251917106325?text=I%20need%20support%20with%3A%20Monitoring%20%26%20Evaluation" target="_blank" rel="noopener" style="color:var(--acc);font-weight:600;font-size:.88rem">Request this service →</a></div></div></div></section>
+<section id="work"><div class="wrap"><div class="head"><span class="eye">Selected work</span><h2>Projects and deliverables</h2><p>Representative engagements across our service areas. Client details are shared on request. Full samples are available on request.</p></div>
+<div class="grid"><div class="card"><span class="k">Program Development</span><h3>Education program design</h3><p>Full design for an education-in-emergencies initiative: theory of change, logframe, budget and MEAL plan.</p><a href="https://wa.me/251917106325?text=I%20would%20like%20a%20sample%20of%3A%20Education%20program%20design" target="_blank" rel="noopener" style="color:var(--acc);font-weight:600;font-size:.88rem">Request a sample →</a></div><div class="card"><span class="k">Business Research</span><h3>Agri-business feasibility study</h3><p>Market, competitor and pricing analysis for a new agri-business venture in Ethiopia.</p><a href="https://wa.me/251917106325?text=I%20would%20like%20a%20sample%20of%3A%20Agri-business%20feasibility%20study" target="_blank" rel="noopener" style="color:var(--acc);font-weight:600;font-size:.88rem">Request a sample →</a></div><div class="card"><span class="k">Proposals</span><h3>Child protection proposal</h3><p>Concept note, logframe and budget for a multi-year child protection program.</p><a href="https://wa.me/251917106325?text=I%20would%20like%20a%20sample%20of%3A%20Child%20protection%20proposal" target="_blank" rel="noopener" style="color:var(--acc);font-weight:600;font-size:.88rem">Request a sample →</a></div><div class="card"><span class="k">M&amp;E</span><h3>WASH impact evaluation</h3><p>Endline evaluation of a 3-year community WASH program using mixed-methods data collection.</p><a href="https://wa.me/251917106325?text=I%20would%20like%20a%20sample%20of%3A%20WASH%20impact%20evaluation" target="_blank" rel="noopener" style="color:var(--acc);font-weight:600;font-size:.88rem">Request a sample →</a></div><div class="card"><span class="k">Model Development</span><h3>Social enterprise business model</h3><p>Business model canvas, financial projections and scalability plan for an education-technology enterprise.</p><a href="https://wa.me/251917106325?text=I%20would%20like%20a%20sample%20of%3A%20Social%20enterprise%20business%20model" target="_blank" rel="noopener" style="color:var(--acc);font-weight:600;font-size:.88rem">Request a sample →</a></div><div class="card"><span class="k">Training</span><h3>Grant writing training</h3><p>3-day curriculum, facilitator guide and participant workbook for NGO staff.</p><a href="https://wa.me/251917106325?text=I%20would%20like%20a%20sample%20of%3A%20Grant%20writing%20training" target="_blank" rel="noopener" style="color:var(--acc);font-weight:600;font-size:.88rem">Request a sample →</a></div></div></div></section>
+<section id="resources"><div class="wrap"><div class="head"><span class="eye">Resources</span><h2>Toolkits, templates and courses</h2><p>Ready-to-use tools to speed up your work. Order by WhatsApp and receive instant guidance.</p></div>
+<div class="grid"><div class="card"><div class="th">📄</div><h3>The AI Grantmaker's Playbook</h3><p>Proposal and concept note templates with AI prompts.</p><div class="price">$49 <small style="font:500 .72rem Inter;color:var(--mut)">USD</small></div><button class="btn o" data-pay="0">Pay with telebirr</button></div><div class="card"><div class="th">📐</div><h3>M&amp;E Framework Toolkit</h3><p>Logframe templates, indicator banks, data tools and report templates.</p><div class="price">$79 <small style="font:500 .72rem Inter;color:var(--mut)">USD</small></div><button class="btn o" data-pay="1">Pay with telebirr</button></div><div class="card"><div class="th">📚</div><h3>Research &amp; Business Analysis Guide</h3><p>Step-by-step method for market research, feasibility and gap analysis.</p><div class="price">$39 <small style="font:500 .72rem Inter;color:var(--mut)">USD</small></div><button class="btn o" data-pay="2">Pay with telebirr</button></div><div class="card"><div class="th">🤖</div><h3>AI for Consultants &amp; Managers</h3><p>Online course on using AI for proposals, analysis and reporting.</p><div class="price">$99 <small style="font:500 .72rem Inter;color:var(--mut)">USD</small></div><button class="btn o" data-pay="3">Pay with telebirr</button></div><div class="card"><div class="th">🧩</div><h3>Business &amp; Program Model Pack</h3><p>Business model canvas, financial model and program logic model templates.</p><div class="price">$59 <small style="font:500 .72rem Inter;color:var(--mut)">USD</small></div><button class="btn o" data-pay="4">Pay with telebirr</button></div><div class="card"><div class="th">🎒</div><h3>Consultant Training Bundle</h3><p>Slides, facilitator guides and exercises for M&amp;E, proposals and analysis.</p><div class="price">$129 <small style="font:500 .72rem Inter;color:var(--mut)">USD</small></div><button class="btn o" data-pay="5">Pay with telebirr</button></div></div></div></section>
+<section id="process" class="alt"><div class="wrap"><div class="head"><span class="eye">How we work</span><h2>A clear, transparent process</h2></div>
+<div class="grid"><div class="card"><div class="n">1</div><h3>Reach out</h3><p>Share your project need by WhatsApp, phone, email or the form.</p></div><div class="card"><div class="n">2</div><h3>Free consultation</h3><p>A 30-minute call to clarify goals, scope and timeline.</p></div><div class="card"><div class="n">3</div><h3>Proposal &amp; quote</h3><p>A tailored scope, deliverables, timeline and transparent pricing.</p></div><div class="card"><div class="n">4</div><h3>Delivery</h3><p>Milestone-based work with regular updates and quality checks.</p></div><div class="card"><div class="n">5</div><h3>Follow-up</h3><p>Revisions and support to make results last.</p></div></div></div></section>
 
-<div class="topbar">
-  <div class="topbar-inner">
-    <div class="brand">
-      <div class="mark">AI</div>
-      <div class="t">Leading a School in the AI Era<small>CAISL · UP-SKILL WORK-FORCE OPEN-JOB · Enrol for 50 Birr</small></div>
-    </div>
-    <div class="progress-wrap">
-      <div class="bar"><span id="barFill"></span></div>
-      <div id="progressText">0%</div>
-    </div>
-  </div>
-</div>
-
-<nav class="tabs"><div class="tabs-inner" id="tabs"></div></nav>
-<main id="app"></main>
-
-<footer>
-  <strong>Leading a School in the AI Era</strong> · Certified AI-Era School Leader (CAISL)<br>
-  Delivered on <a href="https://mohammedscho2023.github.io/UP-SKILL-WORK-FORCE-OPEN-JOB-/" target="_blank" rel="noopener">UP-SKILL WORK-FORCE OPEN-JOB</a> ·
-  Payment via Telebirr <strong>0917106325</strong> · Only <strong>ETB 50</strong><br>
-  <span style="font-size:12px">Progress saved in this browser. Claude Artifact mirror: <a href="https://claude.ai/artifact/MbT2PNJZpPqmr4CQhzWr6F" target="_blank" rel="noopener">open here</a></span>
-</footer>
-
-<div class="toast" id="toast"></div>
-
-<div class="modal-back" id="payModal">
-  <div class="modal">
-    <h3>💚 Complete payment via Telebirr</h3>
-    <p style="font-size:14px;color:#334155;margin:.2em 0 1em">Transfer the exact amount below, then record the transaction reference on the Pay &amp; Enrol tab.</p>
-    <div class="row"><span style="font-size:14px;font-weight:650">Telebirr number:</span><span class="phbig" id="modalPhone">0917106325</span></div>
-    <div class="row"><button class="copy" id="copyPhoneBtn">📋 Copy number</button><span style="font-size:13px;color:#64748b">or dial it directly</span></div>
-    <p style="font-size:14px;font-weight:700;margin:1em 0 .3em">Steps</p>
-    <ol class="steps">
-      <li>Open your Telebirr app, or dial <strong>*127#</strong>.</li>
-      <li>Choose <strong>Send Money</strong> and enter <strong>0917106325</strong>.</li>
-      <li>Enter the amount: <strong id="modalAmount">ETB 50</strong>.</li>
-      <li>Confirm with your PIN and save the <strong>transaction reference</strong>.</li>
-      <li>Close this window and record the reference below.</li>
-    </ol>
-    <div style="display:flex;gap:10px;justify-content:flex-end;margin-top:16px"><button class="close" id="closePayModal">Close</button></div>
-  </div>
-</div>
-
+<section id="contact"><div class="wrap contact"><div><span class="eye">Contact</span><h2 style="font-size:1.9rem">Let's discuss your project</h2><p style="color:var(--mut);margin-top:10px">We aim to reply within 24 hours on business days. Addis Ababa, Ethiopia · Working globally, remotely and on-site.</p>
+<div class="ci"><a href="tel:+251917106325">📞 +251917106325</a><a href="mailto:mohammedscho2023@gmail.com">✉️ mohammedscho2023@gmail.com</a><a href="https://linkedin.com/in/mohammed-tura-044b0b96" target="_blank" rel="noopener">in LinkedIn profile</a></div></div>
+<form id="f"><input id="fn" placeholder="Full name" required=""><input id="fe" type="email" placeholder="Email" required=""><select id="fs"><option>Program Development</option><option>Business Research</option><option>Business Analysis</option><option>Proposals &amp; Concept Notes</option><option>Model Development</option><option>Training Delivery</option><option>Monitoring &amp; Evaluation</option><option>Other</option></select><textarea id="fm" placeholder="Tell us about your project" required=""></textarea>
+<button class="btn p" type="submit">Send via WhatsApp</button><button class="btn o" type="button" id="fmail">Send via Gmail</button><button class="btn o" type="button" id="fcopy">Copy email address</button></form></div></section>
+<footer><div class="wrap"><span>© 2026 MT Consultancy · All rights reserved.</span></div></footer>
+<div class="ov" id="pay"><div class="box" id="pay-b"></div></div>
+<a class="wa" href="https://wa.me/251917106325?text=Hello%2C%20I%20need%20help." target="_blank" rel="noopener">WhatsApp</a></div><noscript><p style="padding:24px;font-family:sans-serif">MT Consultancy. Please enable JavaScript, or contact us: <a href="tel:+251917106325">+251 917 106 325</a> · <a href="mailto:mohammedscho2023@gmail.com">mohammedscho2023@gmail.com</a></p></noscript>
+<script type="application/json" id="state">{"brand":"MT Consultancy","eyebrow":"Development & Business Consultancy","h1":"Evidence-driven programs, proposals and M&E for global impact","lead":"MT Consultancy helps NGOs, businesses and development partners design programs, win funding and measure results. We cover research, proposals, models, training and M&E from start to finish.","about":"MT Consultancy is a development and business consultancy based in Addis Ababa and working globally. We support NGOs, businesses and development partners with program design, research and analysis, funding proposals, business and program models, training, and monitoring and evaluation. Led by Mohammed Tura, a certified grant writer and PRINCE2-certified project manager with an MBA in Project Management, we focus on practical work that donors trust and teams can deliver.","phone":"251917106325","telebirr":"0917106325","tbname":"Mohammed Tura","rate":160,"set":{"work":true,"resources":true,"process":true,"testimonials":true,"pay":true,"wa":true,"theme":"forest"},"email":"mohammedscho2023@gmail.com","linkedin":"https://linkedin.com/in/mohammed-tura-044b0b96","location":"Addis Ababa, Ethiopia · Working globally, remotely and on-site","credentials":["Certified Grant Writer","PRINCE2 Certified","MBA, Project Management","10+ years experience"],"services":[{"t":"Program Development","d":"Theory of change, logframes, budgets, staffing plans and implementation roadmaps.","g":"Design, Logframe, Strategy"},{"t":"Business Research","d":"Market research, feasibility studies, baselines and evidence synthesis.","g":"Market, Feasibility, Baseline"},{"t":"Business Analysis","d":"Performance diagnostics, process mapping, KPI design and improvement plans.","g":"Diagnostics, KPIs, Process"},{"t":"Proposals & Concept Notes","d":"Donor-ready proposals and concept notes with budgeting and compliance review.","g":"Proposals, Donors, Budgets"},{"t":"Model Development","d":"Business, financial and program models and scalable frameworks.","g":"Business Model, Financial, Scale"},{"t":"Training Delivery","d":"Tailored in-person and online training: grant writing, MEAL, program management, AI for NGOs.","g":"Workshops, Online, In-person"},{"t":"Monitoring & Evaluation","d":"M&E systems, baseline/midline/endline evaluations, impact assessments and learning reports.","g":"MEAL, Evaluation, Impact"}],"products":[{"t":"The AI Grantmaker's Playbook","d":"Proposal and concept note templates with AI prompts.","p":"$49"},{"t":"M&E Framework Toolkit","d":"Logframe templates, indicator banks, data tools and report templates.","p":"$79"},{"t":"Research & Business Analysis Guide","d":"Step-by-step method for market research, feasibility and gap analysis.","p":"$39"},{"t":"AI for Consultants & Managers","d":"Online course on using AI for proposals, analysis and reporting.","p":"$99"},{"t":"Business & Program Model Pack","d":"Business model canvas, financial model and program logic model templates.","p":"$59"},{"t":"Consultant Training Bundle","d":"Slides, facilitator guides and exercises for M&E, proposals and analysis.","p":"$129"}],"portfolio":[{"t":"Education program design","k":"Program Development","d":"Full design for an education-in-emergencies initiative: theory of change, logframe, budget and MEAL plan."},{"t":"Agri-business feasibility study","k":"Business Research","d":"Market, competitor and pricing analysis for a new agri-business venture in Ethiopia."},{"t":"Child protection proposal","k":"Proposals","d":"Concept note, logframe and budget for a multi-year child protection program."},{"t":"WASH impact evaluation","k":"M&E","d":"Endline evaluation of a 3-year community WASH program using mixed-methods data collection."},{"t":"Social enterprise business model","k":"Model Development","d":"Business model canvas, financial projections and scalability plan for an education-technology enterprise."},{"t":"Grant writing training","k":"Training","d":"3-day curriculum, facilitator guide and participant workbook for NGO staff."}],"testimonials":[],"process":[{"t":"Reach out","d":"Share your project need by WhatsApp, phone, email or the form."},{"t":"Free consultation","d":"A 30-minute call to clarify goals, scope and timeline."},{"t":"Proposal & quote","d":"A tailored scope, deliverables, timeline and transparent pricing."},{"t":"Delivery","d":"Milestone-based work with regular updates and quality checks."},{"t":"Follow-up","d":"Revisions and support to make results last."}]}</script>
 <script>
-/* ========== 1. CONFIG ========== */
-const PLATFORM_URL = "https://mohammedscho2023.github.io/UP-SKILL-WORK-FORCE-OPEN-JOB-/";
-const ARTIFACT_URL = "https://claude.ai/artifact/MbT2PNJZpPqmr4CQhzWr6F";
-const TELEBIRR_NUMBER = "0917106325";
-const COURSE_FEE_BIRR = 50;
-const PASS_MARK = 80;
-
-/* Helper: build a YouTube search URL (always works) */
-const ytSearch = q => "https://www.youtube.com/results?search_query=" + encodeURIComponent(q);
-
-/* ========== 2. COURSE DATA ========== */
-const COURSE = {
-  title:"Leading a School in the AI Era",
-  cert:"Certified AI-Era School Leader (CAISL)",
-  duration:"8 Weeks · Approx. 50 Hours",
-  mode:"Hybrid — Live Online + Self-Paced",
-  audience:"Principals, Assistant Principals, Heads of Department and Aspiring School Leaders",
-  modules:[
-
-  { id:"m1",num:1,title:"Foundations of AI & Digital Fluency for Leaders",
-    week:"Week 1",hours:"6 Hours",focus:"AI Literacy & Administrative Efficiency",
-    artifact:"AI Efficiency Audit",
-    intro:"This module establishes a shared vocabulary and conceptual understanding of AI. It moves beyond the hype to explore how generative and analytical AI engines function and where they are already applied in education. Leaders learn to distinguish between types of AI and identify the administrative time-sinks where AI can reclaim genuine leadership capacity.",
-    topics:["Demystifying Generative vs. Analytical AI in Educational Contexts",
-      "The 'Gift of Time': Identifying Administrative Automation Opportunities",
-      "Prompt Engineering for Leaders (Role–Audience–Format Framework)",
-      "What AI can and cannot do: capability, limitation and hallucination awareness"],
-    outcomes:["Explain in plain language how large language models generate output",
-      "Identify three administrative workflows in your school suitable for AI support",
-      "Write effective structured prompts using the Role–Audience–Format model",
-      "Distinguish appropriate from inappropriate uses of AI in a school setting"],
-    resources:[
-      {tag:"Free OER",cls:"free",title:"AI for Teachers: An Open Textbook (2nd Edition)",
-        meta:"Colin de la Higuera & Jotsna Iyer · Erasmus+ (2024)",
-        desc:"Accessible open textbook giving educators foundational AI knowledge without heavy technical detail.",
-        url:"https://www.ai4t.eu/textbook/"},
-      {tag:"Search",cls:"free",title:"AI for Educational Leaders (Zenodo)",
-        meta:"Open access repository · search results",
-        desc:"Search Zenodo for the latest open-access guides on AI for school leaders, including the Role–Audience–Format prompt formula.",
-        url:"https://zenodo.org/search?q=AI+for+Educational+Leaders"},
-      {tag:"Open Access",cls:"free",title:"UNESCO Guidance for Generative AI in Education and Research",
-        meta:"Fengchun Miao & Wayne Holmes · UNESCO · CC-BY-SA 3.0 IGO",
-        desc:"UNESCO's first global guidance on GenAI in education, supporting a human-centred vision.",
-        url:"https://unesdoc.unesco.org/ark:/48223/pf0000386693"}],
-    videos:[
-      {title:"How AI Could Save (Not Destroy) Education — Sal Khan (TED)",
-        meta:"TED · approx. 17 min · free · direct video",
-        why:"A high-level framing video for opening conversations with staff and families.",
-        yt:"https://www.youtube.com/watch?v=hJP5GqnTrNo"},
-      {title:"Practical AI for Teachers and Students — Wharton School",
-        meta:"Wharton School · short module series · free",
-        why:"Ethan Mollick's demonstrations map onto the Role–Audience–Format prompt method.",
-        yt:ytSearch("Wharton Practical AI for Teachers and Students"),
-        note:"YouTube search — pick the Wharton School playlist"},
-      {title:"CrashCourse: Artificial Intelligence (full playlist)",
-        meta:"CrashCourse · 20+ episodes · free · direct playlist",
-        why:"A fast, student-friendly series covering AI basics, machine learning, data and ethics.",
-        yt:"https://www.youtube.com/playlist?list=PL8dPuuaLjXtOfse2ncvffeeITrqvhrz8H"}],
-    related:[
-      {name:"AI for School Leaders: 62 Ways to Lighten Your Workload",
-        by:"Vickie F. Echols (2024)",
-        why:"62 concrete strategies leaders can apply immediately.",
-        url:"https://www.amazon.com/s?k=AI+for+School+Leaders+62+Ways+Echols"},
-      {name:"AI for School Principals (Prompt Course)",
-        by:"Complete AI Training (2025)",
-        why:"4-hour, 14-prompt course built specifically for school leaders.",
-        url:"https://completeaitraining.com/"},
-      {name:"AI for Leadership & Management",
-        by:"Oide Technology in Education (Ireland)",
-        why:"Free course plus explainer videos and a 30-minute webinar for leadership teams.",
-        url:"https://www.oidetechnologyineducation.ie/"}],
-    quiz:[
-      {q:"Which statement best describes the difference between generative and analytical AI?",
-        options:["Generative AI creates new content; analytical AI finds patterns in existing data",
-          "Generative AI only works offline; analytical AI only works online",
-          "Generative AI is used by students; analytical AI is used by leaders",
-          "There is no practical difference between them"],
-        answer:0,why:"Generative AI produces new text, images or code; analytical AI detects patterns in existing data."},
-      {q:"The Role–Audience–Format framework is used by leaders primarily to:",
-        options:["Evaluate teacher performance","Write clearer, more effective prompts for AI tools",
-          "Calculate the cost of AI software","Design the school timetable"],
-        answer:1,why:"R–A–F gives the AI a defined persona, reader and output shape — improving quality dramatically."},
-      {q:"An 'AI Efficiency Audit' helps a school leader to:",
-        options:["Replace teachers with software","Identify repetitive administrative workflows that AI can support",
-          "Audit student test scores","Purchase the cheapest AI licence"],
-        answer:1,why:"The audit is a time-recovery exercise: find repetitive, low-risk work and accelerate it."}]},
-
-  { id:"m2",num:2,title:"Ethical Governance, Data Privacy & Risk Management",
-    week:"Week 2",hours:"6 Hours",focus:"Policy, Privacy & Risk Management",
-    artifact:"School-Level AI Policy Outline",
-    intro:"As AI becomes integral to school operations, leaders must navigate complex ethical and legal landscapes. This module focuses on building robust governance structures covering privacy, bias, dependency, integrity and safety — and on translating those pillars into a policy staff can actually follow.",
-    topics:["Frameworks for Ethical AI Decision-Making (UNESCO & OECD standards)",
-      "Data Governance: student privacy, data loss prevention and compliance",
-      "Mitigating algorithmic bias and ensuring equitable access",
-      "Academic integrity, transparency and the 'human-in-the-loop' principle"],
-    outcomes:["Apply an ethics-by-design lens to any AI tool proposed in your school",
-      "Identify the data-protection risks of staff using public AI chatbots",
-      "Draft a school-level AI policy outline with clear red lines",
-      "Explain to families how student data is and is not used"],
-    resources:[
-      {tag:"Free MOOC",cls:"free",title:"Global MOOC on the Ethics of Artificial Intelligence",
-        meta:"UNESCO & LG AI Research · hosted on Coursera · Free",
-        desc:"Grounded in the UNESCO Recommendation on the Ethics of AI. Introduces ethics-by-design.",
-        url:"https://www.coursera.org/learn/global-mooc-on-the-ethics-of-ai"},
-      {tag:"Free Resources",cls:"free",title:"TrustAI: Practical Resources for Responsible AI Skills in Education",
-        meta:"TrustAI Project · Erasmus+",
-        desc:"Materials on AI ethics, data privacy, algorithmic bias and academic integrity.",
-        url:"https://trustai.unibit.bg/"},
-      {tag:"Open Access Book",cls:"free",title:"AI in Learning: Designing the Future",
-        meta:"Springer · Open Access · Internet Archive",
-        desc:"Research-based volume on AI opportunities and ethical challenges in learning.",
-        url:"https://archive.org/details/oapen-20.500.12657-61269"},
-      {tag:"Framework",cls:"free",title:"UNESCO AI Competency Framework for Teachers (2024)",
-        meta:"UNESCO · Free download",
-        desc:"Teacher AI competency: human-centred mindset, ethics, foundations and pedagogy.",
-        url:"https://www.unesco.org/en/articles/ai-competency-framework-teachers"}],
-    videos:[
-      {title:"Introduction to AI Ethics and Safety (Video Course)",
-        meta:"Kate Harwood · Addison-Wesley Professional · approx. 2 hr 15 min",
-        why:"Covers misuse, bias in models and safety through case studies — usable as a policy briefing.",
-        yt:ytSearch("Introduction to AI Ethics and Safety Kate Harwood"),
-        note:"YouTube search — pick the Addison-Wesley playlist"},
-      {title:"AI, Privacy and Cybersecurity in K-12 Education",
-        meta:"Jamf · approx. 46 min · free via Class Central",
-        why:"FERPA compliance, data retention schedules and least-privilege in K-12 settings.",
-        yt:ytSearch("AI Privacy Cybersecurity K-12 Education Jamf")},
-      {title:"Data Ethics and Privacy in AI",
-        meta:"University of Chicago · approx. 17 min · free",
-        why:"Concise lecture on data privacy, security and fairness in AI systems.",
-        yt:ytSearch("Data Ethics and Privacy in AI University of Chicago")},
-      {title:"AI Masterclass Series — IU International University",
-        meta:"IU International University · 3-part series · free",
-        why:"Accessible exploration of AI with strong emphasis on ethics, fairness and transparency.",
-        yt:ytSearch("IU International University AI Masterclass Series")}],
-    related:[
-      {name:"AI for School Leaders — governance and safe adoption",
-        by:"BCS, The Chartered Institute for IT (2026)",
-        why:"Turn AI strategy into outcomes, assure governance, enable safe AI at scale.",
-        url:"https://www.bcs.org/"},
-      {name:"Raising Eagles: How Allen ISD Uses AI Safely and Wisely",
-        by:"Allen ISD (2025)",
-        why:"Real district example — training-style guide for families on privacy-safe use.",
-        url:"https://www.youtube.com/watch?v=XD85CQIU3DE"},
-      {name:"What AI Use Guidelines Should Look Like for Schools",
-        by:"Education Week (2026)",
-        why:"Short video on establishing meaningful AI-use guidelines.",
-        url:"https://www.edweek.org/"}],
-    quiz:[
-      {q:"A 'human-in-the-loop' requirement in a school AI policy means:",
-        options:["AI may only be used during lesson time",
-          "A qualified person reviews and approves AI output before consequential use",
-          "Only humans may type on the keyboard","AI tools must be purchased by a human"],
-        answer:1,why:"Human-in-the-loop keeps professional judgement and safeguarding with a named person."},
-      {q:"The most serious risk of pasting student reports into a public AI chatbot is:",
-        options:["The chatbot may answer slowly","Loss of control over personal and sensitive student data",
-          "The text may be formatted differently","It uses too much electricity"],
-        answer:1,why:"Public chatbots may retain and train on data. Data leaving your control is a breach."},
-      {q:"Algorithmic bias in an AI tool most directly threatens which leadership value?",
-        options:["Equity and fairness for all learners","The school's social media presence",
-          "The speed of report writing","The cost of software licences"],
-        answer:0,why:"Biased training data can produce discriminatory recommendations, undermining equity."}]},
-
-  { id:"m3",num:3,title:"Strategic Implementation & Leading Organisational Change",
-    week:"Weeks 3–4",hours:"10 Hours",focus:"Vision, Roadmap & Change Management",
-    artifact:"6-Month AI Implementation Roadmap",
-    intro:"This module moves from theory to execution. Leaders explore change-management frameworks adapted for AI adoption, and develop a strategic vision plus a 90-day and 6-month roadmap aligned with the school's core values rather than chasing tools.",
-    topics:["Crafting a Vision: aligning AI strategy with the school's 'why'",
-      "The 90-Day Roadmap: audits, quick wins, pilots and scaling",
-      "Leading through change: addressing resistance and building a guiding coalition",
-      "Budgeting, procurement and total cost of ownership",
-      "Measuring impact: what to track and what to ignore"],
-    outcomes:["Write a one-page AI vision statement grounded in your school mission",
-      "Build a 6-month implementation roadmap with milestones and owners",
-      "Identify and recruit a guiding coalition across staff, students and families",
-      "Anticipate and answer the four most common sources of resistance"],
-    resources:[
-      {tag:"Certificate Course",cls:"",title:"Certificate in the Role of the AI Lead",
-        meta:"National College (UK) · Author: Darren Coxon",
-        desc:"Five pillars: vision architect, culture champion, risk navigator, capability builder, strategic connector. Includes a 90-day roadmap.",
-        url:"https://nationalcollege.com/"},
-      {tag:"Certificate",cls:"",title:"AI for K–12 Education Leaders Certificate",
-        meta:"Western Governors University (WGU)",
-        desc:"Accredited certificate building skills to guide responsible AI use in K–12.",
-        url:"https://www.wgu.edu/"},
-      {tag:"Certification",cls:"",title:"AI-Ready School Leaders",
-        meta:"Maven · Instructor: A.J. Juliani",
-        desc:"Use AI as a leadership co-pilot for planning, communication and problem-solving.",
-        url:"https://maven.com/"},
-      {tag:"Book",cls:"paid",title:"Human-AI Leadership for Transforming Schools",
-        meta:"Abdallah, Akaabi & Talvio · IGI Global (March 2026)",
-        desc:"How educator–AI partnerships reshape leadership practice. Free preview available.",
-        url:"https://www.igi-global.com/"}],
-    videos:[
-      {title:"How to Lead AI Integration in Schools: A New Mindset for Leaders",
-        meta:"AWB Education · Control, Shift, Lead podcast · free",
-        why:"Three pillars for successful AI integration; reframes leadership in the AI era.",
-        yt:ytSearch("How to Lead AI Integration in Schools AWB Education")},
-      {title:"How to lead schools in the age of AI — CCE Finland webinar",
-        meta:"Council for Creative Education (CCE) Finland · YouTube",
-        why:"Recorded panel on leadership and change; AI segment begins around 56:10.",
-        yt:ytSearch("Council for Creative Education Finland lead schools age of AI")},
-      {title:"Shifting Strategy and Culture for Educational Leadership — Dan Fitzpatrick",
-        meta:"Panorama Education · The Leading and Learning Podcast",
-        why:"Focused on the strategy-and-culture shift leaders must manage before tools deploy.",
-        yt:ytSearch("Dan Fitzpatrick Shifting Strategy Culture Educational Leadership AI")},
-      {title:"The AI Principal: Tools, Trends, and Real-World Applications",
-        meta:"Podcast · rural intermediate principal",
-        why:"Grounded case study of AI impact in a small, resource-constrained school.",
-        yt:ytSearch("The AI Principal Tools Trends Real-World Applications")},
-      {title:"Masterclasses on AI in Schulentwicklung",
-        meta:"Forum Bildung Digitalisierung (Germany) · YouTube · free",
-        why:"First four videos cover AI in school development and digital leadership.",
-        yt:ytSearch("Forum Bildung Digitalisierung AI Schulentwicklung")}],
-    related:[
-      {name:"Leading and Learning Podcast — Episode 7",
-        by:"Panorama Education (2026)",
-        why:"30-minute conversation on leadership and culture work before AI tooling.",
-        url:"https://www.panoramaed.com/"},
-      {name:"AI for K–12 Leadership: Strategies for Admins and Educators",
-        by:"Castleton University (Summer 2025)",
-        why:"Uses ISTE's AI for School Leaders as core text: ethics, data, instruction, strategy.",
-        url:"https://www.castleton.edu/"},
-      {name:"Transformative Principal — Summer of AI (27 episodes)",
-        by:"Transformative Principal",
-        why:"Long-running interview series on generative AI in K-12.",
-        url:"https://transformativeprincipal.org/"}],
-    quiz:[
-      {q:"A well-designed 90-day AI roadmap should typically begin with:",
-        options:["Buying enterprise licences for every member of staff","Audits and a small number of quick wins",
-          "Removing all existing technology","Publishing a completed policy without consultation"],
-        answer:1,why:"Audit first, then secure early wins that build trust and evidence before scaling."},
-      {q:"Why is building a 'guiding coalition' essential to AI adoption?",
-        options:["It reduces the number of meetings","It distributes ownership so change survives beyond the leader",
-          "It guarantees the software works","It removes the need for a policy"],
-        answer:1,why:"Distributed ownership creates resilience — change led by one person stalls."},
-      {q:"Aligning AI strategy with the school's 'why' means:",
-        options:["Buying whichever tool is most popular","Grounding every AI decision in the school's mission and values",
-          "Copying a neighbouring school's plan","Prioritising the cheapest available option"],
-        answer:1,why:"Mission-first framing turns AI from a gadget into a values-aligned strategy."}]},
-
-  { id:"m4",num:4,title:"Instructional Leadership & AI-Enhanced Pedagogy",
-    week:"Week 5",hours:"6 Hours",focus:"Pedagogy, Assessment & Staff Development",
-    artifact:"Professional Learning Plan",
-    intro:"The leader's role is pivotal in ensuring AI enhances rather than replaces authentic learning. This module focuses on instructional leadership in an AI-rich world: redesigning assessment, building genuine staff AI literacy, and using AI to strengthen — never bypass — instructional coaching.",
-    topics:["Redesigning assessment for an AI-rich world: measuring what matters",
-      "Building staff capacity: a tiered professional development model",
-      "AI for instructional coaching: enhancing observation and feedback",
-      "Protecting student agency, creativity and critical thinking",
-      "Supporting students with additional needs without widening gaps"],
-    outcomes:["Redesign at least one assessment task to be AI-resilient",
-      "Design a tiered professional learning plan for your staff",
-      "Use AI to prepare more precise, evidence-based coaching feedback",
-      "Articulate what remains irreducibly human in your school's pedagogy"],
-    resources:[
-      {tag:"Search",cls:"free",title:"AI for Educational Leaders — Communication & Creativity",
-        meta:"Zenodo · open access search",
-        desc:"Search Zenodo for open-access modules on AI-powered strategic communication for school leaders.",
-        url:"https://zenodo.org/search?q=AI+Educational+Leaders+communication"},
-      {tag:"Free Course",cls:"free",title:"Digital Empowerment for Adult Educators in the Age of AI",
-        meta:"UNESCO Institute for Lifelong Learning · 10 units · self-paced",
-        desc:"AI essentials for adult education, digital literacy, ethics. Digital badges per unit.",
-        url:"https://learninghub.uil.unesco.org/"},
-      {tag:"Free Course",cls:"free",title:"AI for Leadership & Management",
-        meta:"Oide Technology in Education (Ireland)",
-        desc:"Short course plus three explainer videos and a 30-minute webinar.",
-        url:"https://www.oidetechnologyineducation.ie/"},
-      {tag:"Free Course",cls:"free",title:"The AI-Empowered School Leader",
-        meta:"Friday Institute, NC State University",
-        desc:"How generative AI can intentionally enhance K–12 without losing what matters most.",
-        url:"https://fi.ncsu.edu/"}],
-    videos:[
-      {title:"Khan Academy — AI in Education (playlist)",
-        meta:"Khan Academy · full playlist · free",
-        why:"Helps teachers implement Khanmigo; parallel 'Introduction to AI' playlist.",
-        yt:ytSearch("Khan Academy AI in Education playlist")},
-      {title:"Microsoft — Generative AI Series for Educators",
-        meta:"Microsoft · 18 short episodes · free",
-        why:"Beginner-to-confident sequence — ideal backbone for tiered staff CPD.",
-        yt:ytSearch("Microsoft Generative AI for Educators series")},
-      {title:"AI Show & Tell — practical uses of AI in language education",
-        meta:"TIRF · video series + webinar · free",
-        why:"Short practitioner demonstrations — model for internal 'AI Show & Tell' sessions.",
-        yt:ytSearch("TIRF AI Show and Tell language education")},
-      {title:"TERC Tech Talks — evaluating AI tools for educators",
-        meta:"TERC · biweekly video podcast · free",
-        why:"Helps practitioners navigate the rapidly evolving world of AI tools.",
-        yt:"https://www.youtube.com/@tercSTEMEd"},
-      {title:"UNESCO AI Competency Framework — short lectures",
-        meta:"UNESCO Latvia National Commission · 5 videos · free",
-        why:"Each lecture explains one AI competence with methodological materials.",
-        yt:ytSearch("UNESCO AI Competency Framework for Teachers lectures")},
-      {title:"Google DeepMind — Teaching the Foundations of AI in the Classroom",
-        meta:"Google DeepMind · free · lessons at experience-ai.org",
-        why:"Shows how to teach AI foundations; lessons downloadable.",
-        yt:ytSearch("Google DeepMind Teaching Foundations of AI Classroom")}],
-    related:[
-      {name:"Foundations of AI for PK-12 Educators",
-        by:"Pearson Skilling Suite",
-        why:"Structured paid course with video learning and quizzes — ready-made CPD backbone.",
-        url:"https://za.mindhub.com/"},
-      {name:"AI Masterclass: Artificial Intelligence in the Classroom",
-        by:"IWM / schule-mal-digital.de",
-        why:"Five free episodes on how generative AI challenges assessment formats.",
-        url:"https://www.kmrc.de/"},
-      {name:"AI-assisted Differentiation for NZ Schools — Chat AI Podcast",
-        by:"Dr Craig Hansen",
-        why:"Practical workflow for AI-assisted differentiation in a content-heavy curriculum.",
-        url:"https://summitinstitute.ac.nz/"},
-      {name:"Gemini Notebook for Educators — video series",
-        by:"Nives Torresi",
-        why:"Short practical course on an end-to-end lesson design workflow.",
-        url:"https://www.youtube.com/results?search_query=Gemini+Notebook+for+Educators+Nives+Torresi"}],
-    quiz:[
-      {q:"In an AI-rich world, assessment should increasingly:",
-        options:["Rely only on unsupervised take-home essays",
-          "Measure process, reasoning and higher-order thinking, not just the final product",
-          "Be abolished entirely","Be marked by the AI without teacher input"],
-        answer:1,why:"If the product can be generated, evidence must shift to process and transfer."},
-      {q:"A tiered professional development model (Bronze/Silver/Gold) exists to:",
-        options:["Rank teachers for promotion","Meet staff at their current readiness level and let them progress",
-          "Reduce the number of training days","Identify staff to replace with AI"],
-        answer:1,why:"Tiered models respect differing starting points and create progression pathways."},
-      {q:"AI in instructional coaching should be used to:",
-        options:["Replace the coach's professional judgement",
-          "Augment observation, pattern-finding and feedback preparation",
-          "Generate teacher performance grades automatically","Reduce observations to zero"],
-        answer:1,why:"AI accelerates analysis, but relational, contextual judgement stays with the human."}]},
-
-  { id:"m5",num:5,title:"Capstone Project — Leading the AI-Era Transformation",
-    week:"Weeks 6–8",hours:"12 Hours",focus:"Synthesis & Application",
-    artifact:"AI-Era School Leadership Portfolio",
-    intro:"The capstone is a job-embedded project where participants synthesise all prior learning into a comprehensive AI Integration Plan for their own school or district. The plan integrates the ethical framework, strategic roadmap and professional learning design developed across the programme.",
-    topics:["Assembling the portfolio: policy, roadmap, learning plan, communication strategy",
-      "Developing a stakeholder communication package for superintendents, staff and families",
-      "Reflective practice: analysing your own instructional leadership journey",
-      "Presenting and defending the plan to a panel"],
-    outcomes:["Produce a complete, coherent, school-specific AI integration portfolio",
-      "Defend your decisions against ethical and practical challenge",
-      "Communicate the plan confidently to three distinct stakeholder groups",
-      "Commit to a cycle of review, evidence-gathering and revision"],
-    resources:[
-      {tag:"Open Access Book",cls:"free",title:"Empowering K-12 Education with AI",
-        meta:"Thomas Chiu · Taylor & Francis (2024) · Open Access · CC-BY-NC-ND 4.0",
-        desc:"Examines AI's impact on K–12 in AI education and AI in education. Proposes a framework.",
-        url:"https://www.taylorfrancis.com/books/oa-mono/10.4324/9781003498377/empowering-12-education-ai-thomas-chiu"},
-      {tag:"Free Library",cls:"free",title:"RAEIA Digital Library — 180+ Free Books on Education & AI",
-        meta:"Red de Innovación Educativa (Chile) · 100% free",
-        desc:"180+ free books on education and AI — searchable by year, language, author or keyword.",
-        url:"https://raeia.org/books"},
-      {tag:"Open Guidance",cls:"free",title:"UNESCO — AI and Education: Guidance for Policy-Makers",
-        meta:"UNESCO · Open access",
-        desc:"Foundational guidance on AI-in-education fundamentals and AI governance.",
-        url:"https://unesdoc.unesco.org/ark:/48223/pf0000376709"},
-      {tag:"Open Programme",cls:"free",title:"UNESCO — Artificial Intelligence in Education",
-        meta:"UNESCO · official hub",
-        desc:"UNESCO's global hub on AI and education, including the AI competency frameworks.",
-        url:"https://www.unesco.org/en/artificial-intelligence"}],
-    videos:[
-      {title:"AI-TAP 2.0: Data to Doorstep Intelligence for Educators and Leaders",
-        meta:"Dr Saheed ADEBISI · modular playlist · free",
-        why:"Complete free course with lessons, reflection prompts and implementation guides.",
-        yt:ytSearch("AI-TAP 2.0 Data to Doorstep Intelligence Educators Leaders")},
-      {title:"From Chalkboards to Chatbots — TED Talks collection",
-        meta:"University of Baltimore Pressbooks · curated · free",
-        why:"Curated TED talks on AI's potential and ethical challenges in education.",
-        yt:ytSearch("From Chalkboards to Chatbots TED Talks education AI")},
-      {title:"AI Is Dangerous, but Not for the Reasons You Think — Sasha Luccioni (TED)",
-        meta:"TED · short talk · free · direct video",
-        why:"A nuanced framing of AI risk for honest stakeholder communication.",
-        yt:"https://www.youtube.com/watch?v=mEtAfbFr6RE"},
-      {title:"How AI Could Save (Not Destroy) Education — Sal Khan (TED)",
-        meta:"TED · approx. 17 min · free · direct video",
-        why:"Re-watch at the end to see how much deeper your analysis has become.",
-        yt:"https://www.youtube.com/watch?v=hJP5GqnTrNo"}],
-    related:[
-      {name:"AI in Education — Playlist 1: Understanding AI in Education",
-        by:"University College Dublin (OER)",
-        why:"AI-based assessment, personalised learning, ethics and practical case studies.",
-        url:"https://infiniteoer.ucd.ie/"},
-      {name:"Rose's AI — Professor Rose Luckin's channel",
-        by:"Professor Rose Luckin, UCL Institute of Education",
-        why:"Free on YouTube. What is really happening with AI in schools and workplaces.",
-        url:"https://www.educateventures.com/"},
-      {name:"aiEDU Studios — AI Education Project",
-        by:"The AI Education Project",
-        why:"Brings fidelity to the conversation about AI and the future of education.",
-        url:"https://www.youtube.com/@aieducation"},
-      {name:"Inside California Education — AI in Schools",
-        by:"PBS (2025)",
-        why:"How Torrance Unified created policies before bringing AI into classrooms.",
-        url:"https://www.pbs.org/"}],
-    quiz:[
-      {q:"The AI-Era School Leadership Portfolio must contain:",
-        options:["Only a written essay about AI",
-          "The AI policy, implementation roadmap, professional learning plan and communication strategy",
-          "A list of software licences purchased","Student test scores before and after AI use"],
-        answer:1,why:"The portfolio is the integrated, practical evidence base from all five modules."},
-      {q:"Stakeholder communication about AI should be:",
-        options:["Identical for staff, families and the board",
-          "Tailored by audience and transparent about both benefits and risks",
-          "Kept confidential until full rollout","Written entirely by an AI tool without review"],
-        answer:1,why:"Trust is built by audience-appropriate honesty — including about uncertainty."},
-      {q:"Why does reflective practice matter for an AI-era school leader?",
-        options:["It is a formal requirement with no practical value",
-          "Leaders must model the continuous learning they expect from staff and students",
-          "It replaces the need for an implementation plan","It proves that AI is unnecessary"],
-        answer:1,why:"A leader who visibly learns and admits uncertainty creates psychological safety."}]}
-  ]
-};
-
-/* ========== 3. STATE ========== */
-const STORE_KEY = "caisl_progress_v3";
-let state = {name:"",done:{},scores:{},answers:{},paid:false,txn:""};
-function loadState(){try{const r=localStorage.getItem(STORE_KEY);if(r)state=Object.assign(state,JSON.parse(r));}catch(e){}}
-function saveState(){try{localStorage.setItem(STORE_KEY,JSON.stringify(state));}catch(e){}}
-function toast(m){const t=document.getElementById("toast");t.textContent=m;t.classList.add("show");clearTimeout(t._t);t._t=setTimeout(()=>t.classList.remove("show"),2000);}
-
-/* ========== 4. PROGRESS ========== */
-function moduleComplete(m){return state.done[m.id]===true && (state.scores[m.id]||0)>=PASS_MARK;}
-function completedCount(){return COURSE.modules.filter(moduleComplete).length;}
-function progressPercent(){return Math.round((completedCount()/COURSE.modules.length)*100);}
-function allModulesDone(){return completedCount()===COURSE.modules.length;}
-function updateProgressUI(){
-  const p=progressPercent();
-  document.getElementById("barFill").style.width=p+"%";
-  document.getElementById("progressText").textContent=p+"%";
-  COURSE.modules.forEach(m=>{const d=document.querySelector('[data-dot="'+m.id+'"]');if(d)d.classList.toggle("done",moduleComplete(m));});
-}
-
-/* ========== 5. NAV ========== */
-const VIEWS=[
-  {id:"overview",label:"Overview"},
-  {id:"m1",label:"Module 1"},{id:"m2",label:"Module 2"},{id:"m3",label:"Module 3"},
-  {id:"m4",label:"Module 4"},{id:"m5",label:"Module 5"},
-  {id:"videos",label:"🎬 Video Library"},
-  {id:"resources",label:"📚 Resource Library"},
-  {id:"payment",label:"💳 Pay 50 Birr"},
-  {id:"certificate",label:"🎓 Certificate"}
-];
-let currentView="overview";
-function buildTabs(){
-  document.getElementById("tabs").innerHTML=VIEWS.map(v=>{
-    const m=COURSE.modules.find(x=>x.id===v.id);
-    return '<button class="tab" data-view="'+v.id+'">'+v.label+(m?'<span class="dot" data-dot="'+m.id+'"></span>':'')+'</button>';
-  }).join("");
-}
-function setActiveTab(){document.querySelectorAll(".tab").forEach(t=>t.classList.toggle("active",t.dataset.view===currentView));}
-
-/* ========== 6. HELPERS ========== */
-const app=document.getElementById("app");
-function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
-function birr(n){return "ETB "+n.toLocaleString("en-US");}
-
-/* ========== 7. OVERVIEW ========== */
-function renderOverview(){
-  const rows=COURSE.modules.map(m=>`
-    <tr><td><strong>Module ${m.num}</strong></td>
-    <td>${esc(m.title)}<br><span style="color:var(--muted);font-size:13px">${esc(m.week)} · ${esc(m.hours)}</span></td>
-    <td>${esc(m.focus)}</td><td>${esc(m.artifact)}</td></tr>`).join("");
-  return `
-  <section class="view">
-    <div class="crumb">Certificate Programme</div>
-    <h1>Leading a School in the AI Era</h1>
-    <div class="pills">
-      <span class="pill g">${esc(COURSE.cert)}</span>
-      <span class="pill">${esc(COURSE.duration)}</span>
-      <span class="pill">${esc(COURSE.mode)}</span>
-      <span class="pill a">Only ${birr(COURSE_FEE_BIRR)} via Telebirr — ${TELEBIRR_NUMBER}</span>
-    </div>
-    <p class="lead">An 8-week, practice-oriented programme that equips school leaders with the strategic, ethical and operational competencies needed to lead AI integration with confidence. Every module ends with a tangible artefact you can use in your own school.</p>
-    <div class="grid">
-      <div class="card"><h3>🎯 Who it is for</h3><p style="font-size:14.5px;margin:0">${esc(COURSE.audience)}</p></div>
-      <div class="card"><h3>🏆 What you earn</h3><p style="font-size:14.5px;margin:0">A verified digital certificate and badge recognising demonstrated ability to lead ethical, strategic and effective AI integration.</p></div>
-      <div class="card"><h3>🧭 How it works</h3><p style="font-size:14.5px;margin:0">Five modules, each with a knowledge check at ${PASS_MARK}% or above, plus a job-embedded capstone portfolio.</p></div>
-    </div>
-    <div class="paybox">
-      <h3>💚 Enrolment fee — only ${birr(COURSE_FEE_BIRR)}</h3>
-      <div class="price">${birr(COURSE_FEE_BIRR)} <small>one-off · full programme + verified certificate</small></div>
-      <p>Pay by Telebirr to:</p>
-      <div class="ph">📱 ${TELEBIRR_NUMBER}</div>
-      <p style="font-size:13.5px;opacity:.9">Send exactly ${birr(COURSE_FEE_BIRR)}, keep your transaction reference, then record it on the <strong>Pay 50 Birr</strong> tab.</p>
-      <div class="actions" style="margin-top:12px">
-        <button class="btn btn-tele" id="openPayTop">💚 Pay ${birr(COURSE_FEE_BIRR)} with Telebirr</button>
-        <button class="btn btn-ghost" data-view="payment" style="background:rgba(255,255,255,.12);color:#fff;border-color:rgba(255,255,255,.35)">Enter payment reference →</button>
-      </div>
-    </div>
-    <h2>Programme structure</h2>
-    <div class="tablewrap"><table>
-      <thead><tr><th>Unit</th><th>Module</th><th>Core focus</th><th>Key artefact</th></tr></thead>
-      <tbody>${rows}</tbody></table></div>
-    <h2>Assessment &amp; certification requirements</h2>
-    <ol>
-      <li><strong>Complete all five modules</strong> — score ${PASS_MARK}% or higher on each knowledge check.</li>
-      <li><strong>Mark each module as reviewed</strong> using the completion checkbox inside the module.</li>
-      <li><strong>Pay ${birr(COURSE_FEE_BIRR)}</strong> by Telebirr to ${TELEBIRR_NUMBER} and record your transaction reference.</li>
-      <li><strong>Submit the capstone portfolio</strong> — the AI-Era School Leadership Portfolio.</li>
-    </ol>
-    <div class="locked-note" id="overviewStatus"></div>
-    <div class="actions">
-      <button class="btn btn-primary" data-view="m1">Start Module 1 →</button>
-      <button class="btn btn-ghost" data-view="videos">🎬 Video Library</button>
-      <button class="btn btn-ghost" data-view="payment">💳 Pay ${birr(COURSE_FEE_BIRR)}</button>
-      <a class="btn btn-ghost" href="${PLATFORM_URL}" target="_blank" rel="noopener">Open on UP-SKILL ↗</a>
-    </div>
-  </section>`;
-}
-
-/* ========== 8. MODULE ========== */
-function renderModule(m){
-  const i=COURSE.modules.indexOf(m),prev=COURSE.modules[i-1],next=COURSE.modules[i+1];
-  const score=state.scores[m.id],done=state.done[m.id]===true;
-  const passed=score!==undefined&&score>=PASS_MARK,last=state.answers[m.id]||[];
-  const topics=m.topics.map(t=>`<li>${esc(t)}</li>`).join("");
-  const outcomes=m.outcomes.map(t=>`<li>${esc(t)}</li>`).join("");
-  const resources=m.resources.map(r=>`
-    <article class="res">
-      <span class="tag ${r.cls||''}">${esc(r.tag)}</span>
-      <h3>${esc(r.title)}</h3><div class="meta">${esc(r.meta)}</div>
-      <p style="font-size:14px;margin:.35em 0">${esc(r.desc)}</p>
-      <a class="link" href="${r.url}" target="_blank" rel="noopener">Access resource</a>
-    </article>`).join("");
-  const videos=(m.videos||[]).map(v=>`
-    <div class="vidcard">
-      <span class="tag video" style="font-size:11px">Video</span>
-      <h4>${esc(v.title)}</h4><div class="meta">${esc(v.meta)}</div>
-      <p class="why">${esc(v.why)}</p>
-      <a class="link" href="${v.yt}" target="_blank" rel="noopener">Watch / open ↗</a>
-      ${v.note?'<div class="meta" style="margin-top:4px;font-style:italic">'+esc(v.note)+'</div>':''}
-    </div>`).join("");
-  const related=(m.related||[]).map(r=>`
-    <div class="card" style="margin:0">
-      <h3 style="font-size:14.5px">${esc(r.name)}</h3>
-      <div style="font-size:12.5px;color:var(--muted)">${esc(r.by)}</div>
-      <p style="font-size:14px;margin:.45em 0 0">${esc(r.why)}</p>
-      <a href="${r.url}" target="_blank" rel="noopener" style="margin-top:6px;display:inline-block;font-weight:700;font-size:13.5px">Open ↗</a>
-    </div>`).join("");
-  const quiz=m.quiz.map((q,qi)=>{
-    const ch=last[qi];
-    const opts=q.options.map((o,oi)=>{
-      let cls="opt";
-      if(ch!==undefined){if(oi===q.answer)cls+=" correct";else if(oi===ch)cls+=" wrong";}
-      const ck=ch===oi?"checked":"",dis=ch!==undefined?"disabled":"";
-      return `<label class="${cls}"><input type="radio" name="${m.id}-q${qi}" value="${oi}" ${ck} ${dis}><span>${esc(o)}</span></label>`;
-    }).join("");
-    const fb=ch!==undefined?`<div class="fb ${ch===q.answer?'ok':'bad'}">${ch===q.answer?'✓ Correct. ':'✗ Not quite. '}${esc(q.why)}</div>`:"";
-    return `<div class="q"><div class="qtext">${qi+1}. ${esc(q.q)}</div>${opts}${fb}</div>`;
-  }).join("");
-  const banner=score!==undefined?`<div class="card" style="border-left:4px solid ${passed?'#22c55e':'#f59e0b'}"><strong>Knowledge check result: ${score}%</strong> — ${passed?'passed ✓':'below the '+PASS_MARK+'% pass mark. Review and try again.'}</div>`:"";
-  return `
-  <section class="view">
-    <div class="crumb">Module ${m.num} of 5 · ${esc(m.week)}</div>
-    <h1>${esc(m.title)}</h1>
-    <div class="pills">
-      <span class="pill">⏱ ${esc(m.hours)}</span>
-      <span class="pill g">Focus: ${esc(m.focus)}</span>
-      <span class="pill a">Artefact: ${esc(m.artifact)}</span>
-      <span class="status ${moduleComplete(m)?'ok':'no'}">${moduleComplete(m)?'Module complete ✓':'In progress'}</span>
-    </div>
-    <p class="lead">${esc(m.intro)}</p>
-    <h2>Key topics</h2><ul>${topics}</ul>
-    <h2>Learning outcomes</h2><p>By the end of this module you will be able to:</p><ul>${outcomes}</ul>
-    <h2>🎬 Watch &amp; learn — video resources</h2><div class="grid">${videos}</div>
-    <h2>📖 Reading &amp; tools</h2><div class="grid">${resources}</div>
-    <h2>🔗 Related short courses &amp; books</h2>
-    <p style="font-size:14px">Short summaries of other programmes that deepen this module's focus.</p>
-    <div class="grid">${related}</div>
-    <h2>Knowledge check</h2>
-    <p style="font-size:14.5px">Answer all ${m.quiz.length} questions. You need <strong>${PASS_MARK}%</strong> to complete this module.</p>
-    ${banner}
-    <form id="quizForm" data-module="${m.id}">
-      ${quiz}
-      <div class="actions no-print">
-        ${last.length===0?'<button type="submit" class="btn btn-primary">Submit answers</button>':'<button type="button" class="btn btn-ghost" id="retryBtn">Retry quiz</button>'}
-      </div>
-    </form>
-    <label class="checkline">
-      <input type="checkbox" data-done="${m.id}" ${done?'checked':''}>
-      <span><strong>Mark this module as reviewed.</strong><br>
-      <span style="color:var(--muted);font-size:13.5px">Tick once you have read the material and produced your artefact: <em>${esc(m.artifact)}</em>.</span></span>
-    </label>
-    <div class="navrow no-print">
-      <div>${prev?'<button class="btn btn-ghost" data-view="'+prev.id+'">← Module '+prev.num+'</button>':'<button class="btn btn-ghost" data-view="overview">← Overview</button>'}</div>
-      <div>${next?'<button class="btn btn-primary" data-view="'+next.id+'">Module '+next.num+' →</button>':'<button class="btn btn-primary" data-view="payment">💳 Pay '+birr(COURSE_FEE_BIRR)+' →</button>'}</div>
-    </div>
-  </section>`;
-}
-
-/* ========== 9. VIDEO LIBRARY ========== */
-function renderVideos(){
-  let blocks="";
-  COURSE.modules.forEach(m=>{
-    if(!m.videos||!m.videos.length)return;
-    const cards=m.videos.map(v=>`
-      <div class="vidcard">
-        <span class="tag video" style="font-size:11px">Video</span>
-        <h4>${esc(v.title)}</h4><div class="meta">${esc(v.meta)}</div>
-        <p class="why">${esc(v.why)}</p>
-        <a class="link" href="${v.yt}" target="_blank" rel="noopener">Watch / open ↗</a>
-        ${v.note?'<div class="meta" style="margin-top:4px;font-style:italic">'+esc(v.note)+'</div>':''}
-      </div>`).join("");
-    blocks+=`<h2>Module ${m.num} — ${esc(m.title)}</h2><div class="grid">${cards}</div>`;
-  });
-  return `
-  <section class="view">
-    <div class="crumb">Video Companion</div>
-    <h1>🎬 External Video Library</h1>
-    <p class="lead">Every video recommended across the five modules, grouped by module. All are free to access. Direct links where available; otherwise a YouTube search link that always works.</p>
-    ${blocks}
-    <div class="actions no-print">
-      <button class="btn btn-ghost" onclick="window.print()">🖨 Print / Save as PDF</button>
-      <button class="btn btn-primary" data-view="resources">📚 Resource Library →</button>
-    </div>
-  </section>`;
-}
-
-/* ========== 10. RESOURCE LIBRARY ========== */
-function renderResources(){
-  let rows="",courseRows="";
-  COURSE.modules.forEach(m=>{
-    (m.resources||[]).forEach((r,i)=>{
-      rows+=`<tr><td>${i===0?'<strong>M'+m.num+'</strong>':''}</td>
-        <td><strong>${esc(r.title)}</strong><br><span style="color:var(--muted);font-size:13px">${esc(r.meta)}</span></td>
-        <td><span class="tag ${r.cls||''}" style="font-size:11px">${esc(r.tag)}</span></td>
-        <td><a href="${r.url}" target="_blank" rel="noopener">Open ↗</a></td></tr>`;
-    });
-    (m.related||[]).forEach((r,i)=>{
-      courseRows+=`<tr><td>${i===0?'<strong>M'+m.num+'</strong>':''}</td>
-        <td><strong>${esc(r.name)}</strong><br><span style="color:var(--muted);font-size:13px">${esc(r.by)}</span><br><span style="font-size:13px">${esc(r.why)}</span></td>
-        <td><a href="${r.url}" target="_blank" rel="noopener">Open ↗</a></td></tr>`;
-    });
-  });
-  return `
-  <section class="view">
-    <div class="crumb">Companion Library</div>
-    <h1>📚 External Resources, Books &amp; Courses</h1>
-    <p class="lead">Every resource and related course referenced in the programme. All links verified working. Free and open-access items are marked.</p>
-    <div class="card" style="border-left:4px solid var(--brand)">
-      <h3>📚 Platform learning library</h3>
-      <p style="font-size:14.5px;margin:.4em 0 0">
-        All resources are also reachable through the <a href="${PLATFORM_URL}" target="_blank" rel="noopener">UP-SKILL WORK-FORCE OPEN-JOB</a> free learning library,
-        featuring content from 80 providers including UNESCO, MIT, Harvard Online, Coursera, Khan Academy and The Open University.
-        Built for a phone and a small data bundle, with 10 original Academy courses and 100 free global courses. Anyone can apply.
-      </p>
-    </div>
-    <h2>Books, frameworks &amp; open resources</h2>
-    <div class="tablewrap"><table>
-      <thead><tr><th style="width:56px">Unit</th><th>Resource</th><th>Access</th><th>Link</th></tr></thead>
-      <tbody>${rows}</tbody></table></div>
-    <h2>Related short courses &amp; programmes</h2>
-    <div class="tablewrap"><table>
-      <thead><tr><th style="width:56px">Unit</th><th>Course / book &amp; why it helps</th><th>Link</th></tr></thead>
-      <tbody>${courseRows}</tbody></table></div>
-    <div class="actions no-print">
-      <button class="btn btn-ghost" onclick="window.print()">🖨 Print / Save as PDF</button>
-      <button class="btn btn-primary" data-view="payment">💳 Pay ${birr(COURSE_FEE_BIRR)} →</button>
-    </div>
-  </section>`;
-}
-
-/* ========== 11. PAYMENT ========== */
-function renderPayment(){
-  const paid=state.paid===true,unlocked=paid&&allModulesDone();
-  return `
-  <section class="view">
-    <div class="crumb">Enrolment</div>
-    <h1>💳 Pay &amp; Enrol — ${birr(COURSE_FEE_BIRR)}</h1>
-    <p class="lead">Your certificate unlocks when <strong>all five modules are complete</strong> and the enrolment fee of <strong>${birr(COURSE_FEE_BIRR)}</strong> has been paid by Telebirr.</p>
-    <div class="paybox">
-      <h3>Enrolment fee</h3>
-      <div class="price">${birr(COURSE_FEE_BIRR)} <small>one-off · full programme + verified certificate</small></div>
-      <p>Send payment by Telebirr to:</p>
-      <div class="ph">📱 ${TELEBIRR_NUMBER}</div>
-      <p style="font-size:13px;opacity:.9">Account holder: UP-SKILL WORK-FORCE OPEN-JOB · Send the exact amount: ${birr(COURSE_FEE_BIRR)}</p>
-      <div class="actions" style="margin-top:14px">
-        <button class="btn btn-tele" id="openPayMain">💚 Open Telebirr steps</button>
-        <a class="btn btn-ghost" href="tel:${TELEBIRR_NUMBER}" style="background:rgba(255,255,255,.12);color:#fff;border-color:rgba(255,255,255,.35)">📞 Call / save ${TELEBIRR_NUMBER}</a>
-      </div>
-    </div>
-    <h2>How to pay ${birr(COURSE_FEE_BIRR)}</h2>
-    <ol>
-      <li>Open your <strong>Telebirr</strong> app, or dial <strong>*127#</strong>.</li>
-      <li>Choose <strong>Send Money</strong> / <strong>Transfer</strong>.</li>
-      <li>Enter the recipient number: <strong>${TELEBIRR_NUMBER}</strong>.</li>
-      <li>Enter the amount: <strong>${birr(COURSE_FEE_BIRR)}</strong>.</li>
-      <li>Confirm with your Telebirr PIN.</li>
-      <li>Save the <strong>transaction reference number</strong> from the confirmation SMS.</li>
-      <li>Paste that reference below and click <strong>Confirm payment</strong>.</li>
-    </ol>
-    <h2>Record your payment</h2>
-    <div class="card">
-      <label for="txnInput" style="font-size:14px;font-weight:650;display:block;margin-bottom:6px">Transaction reference number</label>
-      <input id="txnInput" type="text" value="${esc(state.txn||"")}" placeholder="e.g. TB1234567890" style="width:100%;max-width:420px;padding:12px 14px;border:1px solid var(--line);border-radius:10px;font-family:inherit;font-size:15px;background:#fff;color:var(--ink)">
-      <div class="actions">
-        <button class="btn btn-gold" id="confirmPayBtn">✅ Confirm payment</button>
-        ${paid?'<span class="status ok">Payment recorded ✓</span>':'<span class="status no">Not yet recorded</span>'}
-      </div>
-      <p style="font-size:12.5px;color:var(--muted);margin-top:10px">Your reference is stored only in this browser. Keep the original SMS as proof of payment.</p>
-    </div>
-    <h2>Enrolment status</h2>
-    <div class="tablewrap"><table>
-      <thead><tr><th>Requirement</th><th>Status</th></tr></thead>
-      <tbody>
-        <tr><td>All five modules completed at ${PASS_MARK}% or above</td>
-            <td>${allModulesDone()?'<span class="status ok">Complete ✓</span>':'<span class="status no">'+completedCount()+' of 5</span>'}</td></tr>
-        <tr><td>Enrolment fee of ${birr(COURSE_FEE_BIRR)} paid by Telebirr (${TELEBIRR_NUMBER})</td>
-            <td>${paid?'<span class="status ok">Recorded ✓</span>':'<span class="status no">Pending</span>'}</td></tr>
-        <tr><td>Certificate unlocked</td>
-            <td>${unlocked?'<span class="status ok">Yes ✓</span>':'<span class="status no">Locked</span>'}</td></tr>
-      </tbody></table></div>
-    ${!unlocked?`<div class="locked-note">
-      🔒 <strong>Certificate still locked.</strong>
-      ${!allModulesDone()?(5-completedCount())+' module(s) remaining. ':''}
-      ${!paid?'Payment of '+birr(COURSE_FEE_BIRR)+' not yet recorded.':''}
-    </div>`:""}
-    <div class="navrow no-print">
-      <div><button class="btn btn-ghost" data-view="resources">← Resource Library</button></div>
-      <div><button class="btn btn-primary" data-view="certificate">Go to Certificate →</button></div>
-    </div>
-  </section>`;
-}
-
-/* ========== 12. CERTIFICATE ========== */
-function certId(n){
-  let h=0;const s=(n||"CAISL")+COURSE.cert+(state.txn||"");
-  for(let i=0;i<s.length;i++)h=(h*31+s.charCodeAt(i))%100000;
-  return "CAISL-"+new Date().getFullYear()+"-"+String(h).padStart(5,"0");
-}
-function renderCertificate(){
-  const pct=progressPercent(),paid=state.paid===true,unlocked=paid&&allModulesDone();
-  const name=state.name||"",today=new Date().toLocaleDateString(undefined,{year:"numeric",month:"long",day:"numeric"});
-  const list=COURSE.modules.map(m=>`
-    <tr><td><strong>Module ${m.num}</strong></td><td>${esc(m.title)}</td>
-    <td>${state.done[m.id]?'✓ Reviewed':'— pending'}</td>
-    <td>${state.scores[m.id]!==undefined?state.scores[m.id]+'%':'— not taken'}</td>
-    <td>${moduleComplete(m)?'<span class="status ok">Complete</span>':'<span class="status no">Incomplete</span>'}</td></tr>`).join("");
-  return `
-  <section class="view">
-    <div class="crumb">Certification</div>
-    <h1>Certified AI-Era School Leader (CAISL)</h1>
-    <p class="lead">Complete all five modules at ${PASS_MARK}% or above, pay ${birr(COURSE_FEE_BIRR)} by Telebirr to ${TELEBIRR_NUMBER}, then enter your name to generate your certificate.</p>
-    <h2>Completion checklist</h2>
-    <div class="tablewrap"><table>
-      <thead><tr><th>Unit</th><th>Module</th><th>Reviewed</th><th>Quiz</th><th>Status</th></tr></thead>
-      <tbody>${list}</tbody></table></div>
-    <div class="card">
-      <h3>Overall progress: ${pct}%</h3>
-      <div class="bar" style="width:100%;background:#e2e8f0;height:10px;margin-top:8px"><span style="width:${pct}%;background:linear-gradient(90deg,#3b82f6,#22c55e)"></span></div>
-      <p style="font-size:14px;margin:.8em 0 0">
-        Payment: ${paid?'<span class="status ok">Recorded ✓</span> · Ref: <strong>'+esc(state.txn)+'</strong> · '+birr(COURSE_FEE_BIRR):'<span class="status no">Not recorded</span> — <button class="btn btn-ghost" data-view="payment" style="padding:4px 12px;font-size:13px">Pay '+birr(COURSE_FEE_BIRR)+' now</button>'}
-      </p>
-    </div>
-    ${!unlocked?`<div class="locked-note">
-      🔒 <strong>Certificate locked.</strong>
-      ${!allModulesDone()?(COURSE.modules.length-completedCount())+' module(s) remaining. ':''}
-      ${!paid?'Payment of '+birr(COURSE_FEE_BIRR)+' not yet recorded — go to <strong>Pay '+birr(COURSE_FEE_BIRR)+'</strong>.':''}
-    </div>`:""}
-    <h2>Your certificate</h2>
-    <div class="no-print" style="margin-bottom:12px">
-      <label for="nameInput" style="font-size:14px;font-weight:650;display:block;margin-bottom:6px">Name as it should appear on the certificate</label>
-      <input id="nameInput" type="text" value="${esc(name)}" placeholder="e.g. Amina Yusuf" style="width:100%;max-width:420px;padding:11px 13px;border:1px solid var(--line);border-radius:10px;font-family:inherit;font-size:15px;background:#fff;color:var(--ink)">
-    </div>
-    <div class="cert ${unlocked?'':'locked'}">
-      <div class="seal">🎓</div>
-      <div class="sub" style="letter-spacing:2px;text-transform:uppercase;font-weight:700;color:#0f766e">Certificate of Completion</div>
-      <h2>Certified AI-Era School Leader</h2>
-      <div class="sub">This certifies that</div>
-      <div class="name">${name?esc(name):"____________________"}</div>
-      <div class="sub" style="max-width:620px;margin:14px auto 0">
-        has successfully completed the eight-week programme<br>
-        <strong style="color:#0f172a">Leading a School in the AI Era</strong><br>
-        comprising five modules and a job-embedded capstone portfolio in AI governance, strategy, instructional leadership and ethical implementation.
-      </div>
-      <div class="sub" style="margin-top:18px">${esc(today)}</div>
-      <div class="id">Credential ID: ${esc(certId(name))} ${unlocked?'· VERIFIED':'· PROVISIONAL'} · Fee: ${birr(COURSE_FEE_BIRR)} to ${TELEBIRR_NUMBER}</div>
-    </div>
-    <div class="actions no-print">
-      <button class="btn btn-primary" onclick="window.print()">🖨 Print / Save as PDF</button>
-      <a class="btn btn-ghost" href="${PLATFORM_URL}" target="_blank" rel="noopener">Share on UP-SKILL ↗</a>
-      <a class="btn btn-ghost" href="${ARTIFACT_URL}" target="_blank" rel="noopener">Claude Artifact ↗</a>
-      <button class="btn btn-ghost" id="resetBtn" style="color:#b91c1c;border-color:#fecaca">Reset all progress</button>
-    </div>
-  </section>`;
-}
-
-/* ========== 13. ROUTER ========== */
+const S=JSON.parse(document.getElementById('state').textContent);
+const E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const $=s=>document.querySelector(s);
+const TH={indigo:['#4f46e5','linear-gradient(135deg,#1e1b4b 0%,#4c1d95 45%,#be185d 100%)'],ocean:['#0284c7','linear-gradient(135deg,#0c4a6e,#0369a1 50%,#0d9488)'],forest:['#16a34a','linear-gradient(135deg,#052e16 0%,#166534 45%,#0d9488 100%)'],sunset:['#ea580c','linear-gradient(135deg,#7c2d12,#c2410c 50%,#be185d)']};
 function render(){
-  let html;
-  if(currentView==="overview")html=renderOverview();
-  else if(currentView==="videos")html=renderVideos();
-  else if(currentView==="resources")html=renderResources();
-  else if(currentView==="payment")html=renderPayment();
-  else if(currentView==="certificate")html=renderCertificate();
-  else{const m=COURSE.modules.find(x=>x.id===currentView);html=m?renderModule(m):renderOverview();}
-  app.innerHTML=html;setActiveTab();updateProgressUI();
-  const st=document.getElementById("overviewStatus");
-  if(st){
-    const c=completedCount(),t=COURSE.modules.length,p=state.paid===true;
-    st.innerHTML=(c===t&&p)?'✅ <strong>All modules complete and '+birr(COURSE_FEE_BIRR)+' payment recorded.</strong> Your certificate is unlocked — go to the Certificate tab.':'📌 <strong>Progress: '+c+' of '+t+' modules complete ('+progressPercent()+'%)'+(p?' · payment recorded ✓':' · '+birr(COURSE_FEE_BIRR)+' payment pending')+'.</strong> Saved automatically in this browser.';
-  }
-  window.scrollTo({top:0,behavior:"smooth"});
+const th=TH[S.set.theme]||TH.indigo;document.documentElement.style.setProperty('--acc',th[0]);document.documentElement.style.setProperty('--hero',th[1]);
+const wa=m=>`https://wa.me/${E(S.phone)}?text=${encodeURIComponent(m)}`;
+$('#app').innerHTML=`
+<header><div class="wrap nav"><a class="logo" href="#top"><b>MT</b>${E(S.brand)}</a>
+<nav><a href="#about">About</a><a href="#services">Services</a>${S.portfolio.length&&S.set.work?'<a href="#work">Work</a>':''}${S.set.resources?'<a href="#resources">Resources</a>':''}${S.set.process?'<a href="#process">Process</a>':''}<a href="#contact">Contact</a></nav>
+<a class="btn p" href="${wa('Hello, I would like to discuss a project.')}" target="_blank" rel="noopener">Book a consultation</a></div></header>
+<section class="hero" id="top"><div class="wrap hgrid"><div><span class="eye">${E(S.eyebrow)}</span><h1>${E(S.h1)}</h1><p class="lead">${E(S.lead)}</p>
+<div class="cta"><a class="btn p" href="${wa('Hello, I want to discuss a consultancy project.')}" target="_blank" rel="noopener">Chat on WhatsApp</a><a class="btn o" href="#contact">Send an inquiry</a></div>
+</div><aside class="hcard"><h3>Why clients choose us</h3><ul>${S.credentials.map(c=>`<li>${E(c)}</li>`).join('')}</ul><a class="btn p" style="text-align:center" href="tel:+${E(S.phone)}">📞 Call +${E(S.phone)}</a></aside></div></section>
+<section id="about"><div class="wrap agrid"><div><span class="eye">About</span><h2 style="font-size:clamp(1.6rem,3vw,2.1rem);margin-bottom:14px">Who we are</h2><p style="color:var(--mut);font-size:1.02rem">${E(S.about)}</p></div><div class="apill"><div>🌍 Global reach, based in Addis Ababa</div><div>📋 ${S.services.length} core services</div><div>🎓 ${E(S.credentials[0]||'Certified expertise')}</div></div></div></section>
+<section id="services" class="alt"><div class="wrap"><div class="head"><span class="eye">Services</span><h2>${S.services.length} core services, one accountable partner</h2><p>End-to-end support from design and research through delivery and results measurement.</p></div>
+<div class="grid">${S.services.map((s,i)=>`<div class="card"><div class="n">${['🌱','🔍','📊','📝','🧩','🎓','✅'][i]||'⭐'}</div><h3>${E(s.t)}</h3><p>${E(s.d)}</p><div class="tags">${(s.g||'').split(',').filter(x=>x.trim()).map(x=>`<i>${E(x.trim())}</i>`).join('')}</div><a href="${wa('I need support with: '+s.t)}" target="_blank" rel="noopener" style="color:var(--acc);font-weight:600;font-size:.88rem">Request this service →</a></div>`).join('')}</div></div></section>
+${S.portfolio.length&&S.set.work?`<section id="work"><div class="wrap"><div class="head"><span class="eye">Selected work</span><h2>Projects and deliverables</h2><p>Representative engagements across our service areas. Client details are shared on request. Full samples are available on request.</p></div>
+<div class="grid">${S.portfolio.map(w=>`<div class="card"><span class="k">${E(w.k)}</span><h3>${E(w.t)}</h3><p>${E(w.d)}</p><a href="${wa('I would like a sample of: '+w.t)}" target="_blank" rel="noopener" style="color:var(--acc);font-weight:600;font-size:.88rem">Request a sample →</a></div>`).join('')}</div></div></section>`:''}
+${S.set.resources?`<section id="resources"><div class="wrap"><div class="head"><span class="eye">Resources</span><h2>Toolkits, templates and courses</h2><p>Ready-to-use tools to speed up your work. Order by WhatsApp and receive instant guidance.</p></div>
+<div class="grid">${S.products.map((p,i)=>`<div class="card"><div class="th">${['📄','📐','📚','🤖','🧩','🎒'][i]||'📦'}</div><h3>${E(p.t)}</h3><p>${E(p.d)}</p><div class="price">${E(p.p)} <small style="font:500 .72rem Inter;color:var(--mut)">USD</small></div>${S.set.pay?`<button class="btn o" data-pay="${i}">Pay with telebirr</button>`:`<a class="btn o" style="text-align:center" href="${wa('I want to order: '+p.t)}" target="_blank" rel="noopener">Order on WhatsApp</a>`}</div>`).join('')}</div></div></section>`:''}
+${S.set.process?`<section id="process" class="alt"><div class="wrap"><div class="head"><span class="eye">How we work</span><h2>A clear, transparent process</h2></div>
+<div class="grid">${S.process.map((s,i)=>`<div class="card"><div class="n">${i+1}</div><h3>${E(s.t)}</h3><p>${E(s.d)}</p></div>`).join('')}</div></div></section>`:''}
+${S.testimonials.length&&S.set.testimonials?`<section class="alt"><div class="wrap"><div class="head"><span class="eye">Testimonials</span><h2>What clients say</h2></div>
+<div class="grid">${S.testimonials.map(t=>`<div class="card"><p class="q">“${E(t.q)}”</p><div class="who">${E(t.n)}${t.r?' · '+E(t.r):''}</div></div>`).join('')}</div></div></section>`:''}
+<section id="contact"><div class="wrap contact"><div><span class="eye">Contact</span><h2 style="font-size:1.9rem">Let's discuss your project</h2><p style="color:var(--mut);margin-top:10px">We aim to reply within 24 hours on business days. ${E(S.location)}.</p>
+<div class="ci"><a href="tel:+${E(S.phone)}">📞 +${E(S.phone)}</a><a href="mailto:${E(S.email)}">✉️ ${E(S.email)}</a><a href="${E(S.linkedin)}" target="_blank" rel="noopener">in LinkedIn profile</a></div></div>
+<form id="f"><input id="fn" placeholder="Full name" required><input id="fe" type="email" placeholder="Email" required><select id="fs">${S.services.map(s=>`<option>${E(s.t)}</option>`).join('')}<option>Other</option></select><textarea id="fm" placeholder="Tell us about your project" required></textarea>
+<button class="btn p" type="submit">Send via WhatsApp</button><button class="btn o" type="button" id="fmail">Send via Gmail</button><button class="btn o" type="button" id="fcopy">Copy email address</button></form></div></section>
+<footer><div class="wrap"><span>© 2026 ${E(S.brand)} · All rights reserved.</span></div></footer>
+<div class="ov" id="pay"><div class="box" id="pay-b"></div></div>
+${S.set.wa?`<a class="wa" href="${wa('Hello, I need help.')}" target="_blank" rel="noopener">WhatsApp</a>`:''}`;
+const msg=()=>`New inquiry\nName: ${$('#fn').value}\nEmail: ${$('#fe').value}\nService: ${$('#fs').value}\n\n${$('#fm').value}`;
+const pay=$('#pay');pay.onclick=e=>{if(e.target===pay)pay.classList.remove('open')};
+document.querySelectorAll('[data-pay]').forEach(b=>b.onclick=()=>{const p=S.products[b.dataset.pay];const usd=parseFloat(String(p.p).replace(/[^\d.]/g,''))||0;const etb=usd&&S.rate?Math.round(usd*S.rate/10)*10:0;const ae=etb?etb.toLocaleString('en-US')+' ETB':'confirm on WhatsApp';
+$('#pay-b').innerHTML=`<h3>Pay with telebirr</h3><div><b>${E(p.t)}</b></div><div class="amt">Amount: ${E(p.p)} ≈ ${E(ae)}</div><div>Send to telebirr number:<div class="num">${E(S.telebirr)}</div><small style="color:var(--mut)">Account name: ${E(S.tbname)}</small></div>
+<ol><li>Open telebirr and choose <b>Send Money</b>.</li><li>Enter the number above and the amount in ETB.</li><li>Confirm the name matches, then pay.</li><li>Send us your transaction ID or screenshot on WhatsApp.</li></ol>
+<button class="btn o" id="pay-c">Copy telebirr number</button><a class="btn p" style="text-align:center" target="_blank" rel="noopener" href="${wa('Hello, I paid by telebirr for: '+p.t+'. Amount: '+ae+'. Transaction ID: ')}">I have paid. Send proof on WhatsApp</a><button class="btn o" id="pay-x">Close</button>`;
+$('#pay-x').onclick=()=>pay.classList.remove('open');
+$('#pay-c').onclick=async()=>{const c=$('#pay-c');try{await navigator.clipboard.writeText(S.telebirr)}catch(e){}c.textContent='Copied: '+S.telebirr;setTimeout(()=>c.textContent='Copy telebirr number',3000)};
+pay.classList.add('open')});
+$('#f').onsubmit=e=>{e.preventDefault();window.open(`https://wa.me/${S.phone}?text=${encodeURIComponent(msg())}`,'_blank')};
+$('#fmail').onclick=()=>{if($('#f').reportValidity())window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(S.email)}&su=${encodeURIComponent('Inquiry: '+$('#fs').value)}&body=${encodeURIComponent(msg())}`,'_blank','noopener')};
+$('#fcopy').onclick=async()=>{const b=$('#fcopy');try{await navigator.clipboard.writeText(S.email)}catch(e){const t=document.createElement('textarea');t.value=S.email;document.body.appendChild(t);t.select();try{document.execCommand('copy')}catch(_){}t.remove()}b.textContent='Copied: '+S.email;setTimeout(()=>b.textContent='Copy email address',3500)};
 }
-
-/* ========== 14. PAYMENT MODAL ========== */
-const payModal=document.getElementById("payModal");
-function openPayModal(){document.getElementById("modalPhone").textContent=TELEBIRR_NUMBER;document.getElementById("modalAmount").textContent=birr(COURSE_FEE_BIRR);payModal.classList.add("show");}
-function closePayModal(){payModal.classList.remove("show");}
-document.getElementById("closePayModal").addEventListener("click",closePayModal);
-payModal.addEventListener("click",e=>{if(e.target===payModal)closePayModal();});
-document.getElementById("copyPhoneBtn").addEventListener("click",function(){
-  const txt=TELEBIRR_NUMBER;
-  if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(()=>toast("Number copied: "+txt)).catch(()=>toast("Number: "+txt));}
-  else toast("Number: "+txt);
-});
-
-/* ========== 15. EVENTS ========== */
-document.addEventListener("click",function(e){
-  const nav=e.target.closest("[data-view]");
-  if(nav){e.preventDefault();currentView=nav.dataset.view;render();return;}
-  if(e.target.id==="openPayTop"||e.target.id==="openPayMain"){openPayModal();return;}
-  if(e.target.id==="retryBtn"){delete state.answers[e.target.closest("form").dataset.module];saveState();render();return;}
-  if(e.target.id==="confirmPayBtn"){
-    const v=(document.getElementById("txnInput").value||"").trim();
-    if(v.length<4){toast("Please enter a valid transaction reference");return;}
-    state.txn=v;state.paid=true;saveState();toast("Payment of "+birr(COURSE_FEE_BIRR)+" recorded ✓");render();return;
-  }
-  if(e.target.id==="resetBtn"){
-    if(confirm("Reset all progress, quiz scores, payment record and your name? This cannot be undone.")){
-      state={name:"",done:{},scores:{},answers:{},paid:false,txn:""};saveState();currentView="overview";render();toast("Progress reset");
-    }
-    return;
-  }
-});
-document.addEventListener("submit",function(e){
-  if(e.target.id!=="quizForm")return;
-  e.preventDefault();
-  const id=e.target.dataset.module,m=COURSE.modules.find(x=>x.id===id);
-  const fd=new FormData(e.target),answers=[];let correct=0;
-  m.quiz.forEach((q,qi)=>{const val=fd.get(id+"-q"+qi);const ch=val===null?-1:parseInt(val,10);answers.push(ch);if(ch===q.answer)correct++;});
-  const score=Math.round((correct/m.quiz.length)*100);
-  state.answers[id]=answers;state.scores[id]=score;
-  if(score>=PASS_MARK){state.done[id]=true;toast("Module "+m.num+" passed — "+score+"%");}
-  else toast("Score: "+score+"% — review and retry");
-  saveState();render();
-});
-document.addEventListener("change",function(e){
-  const box=e.target.closest("[data-done]");
-  if(box){
-    state.done[box.dataset.done]=box.checked;saveState();updateProgressUI();
-    const st=document.querySelector(".status");
-    if(st){const m=COURSE.modules.find(x=>x.id===box.dataset.done);st.textContent=moduleComplete(m)?"Module complete ✓":"In progress";st.className="status "+(moduleComplete(m)?"ok":"no");}
-    toast(box.checked?"Marked as reviewed":"Marked as not reviewed");
-  }
-});
-document.addEventListener("input",function(e){
-  if(e.target.id==="nameInput"){
-    state.name=e.target.value;saveState();
-    const cn=document.querySelector(".cert .name");if(cn)cn.textContent=state.name||"____________________";
-    const idEl=document.querySelector(".cert .id");
-    if(idEl){const u=state.paid&&allModulesDone();idEl.textContent="Credential ID: "+certId(state.name)+(u?" · VERIFIED":" · PROVISIONAL")+" · Fee: "+birr(COURSE_FEE_BIRR)+" to "+TELEBIRR_NUMBER;}
-  }
-  if(e.target.id==="txnInput"){state.txn=e.target.value;saveState();}
-});
-
-/* ========== 16. INIT ========== */
-loadState();buildTabs();render();
+render();
 </script>
 </body>
 </html>
